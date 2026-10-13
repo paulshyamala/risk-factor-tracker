@@ -1,0 +1,7 @@
+edgartools
+pandas
+scikit-learn
+rapidfuzz
+yfinance
+anthropic
+plotly
