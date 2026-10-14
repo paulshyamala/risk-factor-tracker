@@ -5,3 +5,4 @@ rapidfuzz
 yfinance
 anthropic
 plotly
+openpyxl

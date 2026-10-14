@@ -1,0 +1,27 @@
+{
+  "mock": true,
+  "generated_at": "2026-10-14T17:23:53+00:00",
+  "model": "claude-haiku-5-5",
+  "codebook_version": "1.2",
+  "n_companies": 25,
+  "n_units_latest": 1759,
+  "pct_kept": 0.8,
+  "n_candidates": 351,
+  "n_genuinely_new": 45,
+  "n_companies_added_tariff_risk": 6,
+  "n_companies_added_ai_risk": 6,
+  "llm_accuracy_test": 0.825,
+  "quote_valid_rate": 0.958,
+  "headline_findings": [
+    "[MOCK] Starbucks rewrote its Risk Factors more than any other company in the sample.",
+    "[MOCK] Union Pacific added a block of new risks tied to its proposed merger with Norfolk Southern.",
+    "[MOCK] Tariff risk was the most common genuinely new category across restaurants and apparel.",
+    "[MOCK] Most changes elsewhere were rewording rather than new risks."
+  ],
+  "spotlight": {
+    "ticker": "UNP",
+    "name": "Union Pacific Corporation",
+    "summary": "[MOCK] Union Pacific added 21 new risk units, almost all about the proposed merger. Its prior-year risks were carried over unchanged.",
+    "memo_url": "memo.pdf"
+  }
+}

@@ -46,12 +46,17 @@ def slice_item_1a(full_text):
 
 
 PAGE_NUM_RE = re.compile(r"^(page\s*)?[-–—]?\s*\d{1,4}\s*[-–—]?$", re.I)
-# "16 / CPKC 2025 Annual Report" and "CPKC 2025 Annual Report / 17" -> same footer key.
-FOOTER_PAGE_RE = re.compile(r"^\d{1,4}\s*/\s*|\s*/\s*\d{1,4}$")
+# Page numbers at either end of a footer, separated by whitespace or "/", "|", "-" etc., so that
+# "16 / CPKC 2025 Annual Report", "CPKC 2025 Annual Report / 17",
+# "2026 FORM 10-K   9" / "2026 FORM 10-K   10" and "CSX 2025 Form 10-K p.8" each count as
+# one repeated footer.
+FOOTER_PAGE_RE = re.compile(r"^\d{1,4}(\s*[/|·•–—-]\s*|\s+)|(\s*[/|·•–—-]\s*|\s+)(p\.\s*)?\d{1,4}$", re.I)
 # Letter-prefixed page labels such as "K11" or "K-12" (NSC), alone or fused to the next line.
 PAGE_LABEL_RE = re.compile(r"^[A-Z]-?\d{1,3}$")
 FUSED_LABEL_RE = re.compile(r"^[A-Z]-?\d{1,3}\s+(?=[a-z])")
 TERMINAL = tuple('.!?:;"”)')
+INVISIBLE = "\u200b\u200e\u200f\ufeff"  # zero-width / direction marks that can trail a full stop
+BULLET_START_RE = re.compile(r"^[•●◦▪\-–]")
 
 
 def footer_key(line):
@@ -82,11 +87,16 @@ def clean_text(raw):
             kept.append(line)
 
     # A removed footer leaves a blank-line gap mid-sentence; merge across it when the
-    # first block has no terminal punctuation and the next continues in lowercase.
+    # first block has no terminal punctuation and either the next continues in lowercase,
+    # or the first block is long enough (200+ chars) that it can't be a heading — this
+    # catches breaks before capitalised words, e.g. "...paid to" / "Amazon in the U.S.".
     blocks = [b.strip() for b in re.split(r"\n\s*\n", "\n".join(kept)) if b.strip()]
     merged, merges = [], 0
     for block in blocks:
-        if merged and not merged[-1].endswith(TERMINAL) and block[0].islower():
+        if (merged and not merged[-1].rstrip(INVISIBLE).endswith(TERMINAL)
+                and (block[0].islower()
+                     # a bullet after "...; and" is list structure, not a page break
+                     or (len(merged[-1]) >= 200 and not BULLET_START_RE.match(block)))):
             merged[-1] += " " + block
             merges += 1
         else:
@@ -178,11 +188,29 @@ def fetch_ticker(conn, ticker):
     conn.commit()
 
 
+def reclean(conn):
+    rows = conn.execute(
+        "SELECT ticker, accession_no, filing_date, char_len, extraction_method, text FROM filings "
+        "ORDER BY ticker, filing_date DESC"
+    ).fetchall()
+    for ticker, accession_no, filed, chars, method, text in rows:
+        clean, removed, merges = clean_text(text)
+        conn.execute(
+            "UPDATE filings SET text_clean = ?, char_len_clean = ? WHERE ticker = ? AND accession_no = ?",
+            (clean, len(clean), ticker, accession_no),
+        )
+        print(f"  {ticker} {filed}: {chars:,} chars ({method}); "
+              f"cleaned: {removed} footer lines removed, {merges} paragraph merges")
+    conn.commit()
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     group = parser.add_mutually_exclusive_group()
     group.add_argument("--test", action="store_true", help="fetch TEST_TICKERS only")
     group.add_argument("--tickers", nargs="+", help="fetch only these tickers")
+    group.add_argument("--reclean", action="store_true",
+                       help="rebuild text_clean for all stored rows from raw text, without re-fetching")
     args = parser.parse_args()
     tickers = TEST_TICKERS if args.test else [t.upper() for t in args.tickers] if args.tickers else TICKERS
 
@@ -190,8 +218,12 @@ def main():
     conn = sqlite3.connect(DB_PATH)
     init_db(conn)
 
+    if args.reclean:
+        reclean(conn)
+        tickers = [r[0] for r in conn.execute("SELECT DISTINCT ticker FROM filings")]
+
     failed = {}
-    for ticker in tickers:
+    for ticker in tickers if not args.reclean else []:
         print(f"Fetching {ticker}...")
         try:
             fetch_ticker(conn, ticker)

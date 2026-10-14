@@ -1,7 +1,7 @@
 # Risk-Factor Change Tracker — Annotation Codebook
 
 **Version:** 1.2  
-**Last updated:** 2026-10-13  
+**Last updated:** 2026-10-14
 **Purpose:** Consistent human and LLM labelling of candidate new risk-factor paragraphs in SEC Form 10-K filings.
 
 ## 1. Annotation Principles
@@ -172,7 +172,7 @@ Apply these rules in order when a paragraph appears to fit multiple categories:
 
 ## 4. Novelty Labels
 
-Every candidate paragraph identified as new by the automated matching pipeline receives one novelty label.
+Every candidate paragraph identified as new or modified by the automated matching pipeline receives one novelty label.
 
 ### `genuinely_new`
 
@@ -308,7 +308,7 @@ For each candidate paragraph, record:
 
 ## 9. Gold-Set Labelling Procedure
 
-The gold set contains 60 randomly selected candidate new paragraphs, selected with random seed `42`.
+The gold set contains 60 randomly selected candidate new or modified paragraphs, selected with random seed `42`.
 
 - **Development set:** 20 paragraphs, used to refine the LLM prompt.
 - **Test set:** 40 paragraphs, reserved for final evaluation.

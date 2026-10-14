@@ -1,0 +1,155 @@
+{
+  "mock": true,
+  "data": [
+    {
+      "ticker": "SBUX",
+      "change_score": 0.239,
+      "abnormal_return_60d": 0.125,
+      "filing_date": "2025-11-14"
+    },
+    {
+      "ticker": "UNP",
+      "change_score": 0.196,
+      "abnormal_return_60d": 0.004,
+      "filing_date": "2026-02-06"
+    },
+    {
+      "ticker": "EBAY",
+      "change_score": 0.134,
+      "abnormal_return_60d": 0.01,
+      "filing_date": "2026-02-19"
+    },
+    {
+      "ticker": "LULU",
+      "change_score": 0.128,
+      "abnormal_return_60d": 0.065,
+      "filing_date": "2026-03-17"
+    },
+    {
+      "ticker": "NSC",
+      "change_score": 0.123,
+      "abnormal_return_60d": -0.051,
+      "filing_date": "2026-02-09"
+    },
+    {
+      "ticker": "QSR",
+      "change_score": 0.072,
+      "abnormal_return_60d": 0.02,
+      "filing_date": "2026-02-20"
+    },
+    {
+      "ticker": "CMG",
+      "change_score": 0.071,
+      "abnormal_return_60d": -0.002,
+      "filing_date": "2026-02-04"
+    },
+    {
+      "ticker": "UAA",
+      "change_score": 0.065,
+      "abnormal_return_60d": 0.019,
+      "filing_date": "2026-05-19"
+    },
+    {
+      "ticker": "ETSY",
+      "change_score": 0.056,
+      "abnormal_return_60d": -0.05,
+      "filing_date": "2026-02-19"
+    },
+    {
+      "ticker": "WM",
+      "change_score": 0.052,
+      "abnormal_return_60d": -0.095,
+      "filing_date": "2026-02-09"
+    },
+    {
+      "ticker": "WEN",
+      "change_score": 0.05,
+      "abnormal_return_60d": -0.124,
+      "filing_date": "2026-02-23"
+    },
+    {
+      "ticker": "GAP",
+      "change_score": 0.046,
+      "abnormal_return_60d": -0.067,
+      "filing_date": "2026-03-17"
+    },
+    {
+      "ticker": "XYZ",
+      "change_score": 0.04,
+      "abnormal_return_60d": -0.028,
+      "filing_date": "2026-02-26"
+    },
+    {
+      "ticker": "YUM",
+      "change_score": 0.036,
+      "abnormal_return_60d": -0.018,
+      "filing_date": "2026-02-20"
+    },
+    {
+      "ticker": "VFC",
+      "change_score": 0.035,
+      "abnormal_return_60d": 0.116,
+      "filing_date": "2026-05-20"
+    },
+    {
+      "ticker": "PYPL",
+      "change_score": 0.033,
+      "abnormal_return_60d": 0.066,
+      "filing_date": "2026-02-03"
+    },
+    {
+      "ticker": "CP",
+      "change_score": 0.032,
+      "abnormal_return_60d": -0.058,
+      "filing_date": "2026-02-26"
+    },
+    {
+      "ticker": "SHOP",
+      "change_score": 0.031,
+      "abnormal_return_60d": 0.021,
+      "filing_date": "2026-02-11"
+    },
+    {
+      "ticker": "RSG",
+      "change_score": 0.028,
+      "abnormal_return_60d": -0.024,
+      "filing_date": "2026-02-18"
+    },
+    {
+      "ticker": "NKE",
+      "change_score": 0.027,
+      "abnormal_return_60d": -0.017,
+      "filing_date": "2026-07-15"
+    },
+    {
+      "ticker": "WCN",
+      "change_score": 0.021,
+      "abnormal_return_60d": 0.011,
+      "filing_date": "2026-02-12"
+    },
+    {
+      "ticker": "DPZ",
+      "change_score": 0.02,
+      "abnormal_return_60d": 0.037,
+      "filing_date": "2026-02-23"
+    },
+    {
+      "ticker": "MCD",
+      "change_score": 0.02,
+      "abnormal_return_60d": -0.02,
+      "filing_date": "2026-02-24"
+    },
+    {
+      "ticker": "CSX",
+      "change_score": 0.01,
+      "abnormal_return_60d": 0.064,
+      "filing_date": "2026-02-12"
+    },
+    {
+      "ticker": "AMZN",
+      "change_score": 0.005,
+      "abnormal_return_60d": -0.069,
+      "filing_date": "2026-02-06"
+    }
+  ]
+}
