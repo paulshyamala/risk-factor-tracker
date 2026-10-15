@@ -8,7 +8,7 @@ The site reads five JSON files from `public/data/`. All five are written by `pip
 
 | Type | Values |
 |---|---|
-| `Category` | `tariffs/trade`, `AI/tech`, `cyber/data privacy`, `credit/liquidity`, `regulation/legal`, `competition`, `macro`, `other`, `not_a_risk` (codebook.md §2, §7) |
+| `Category` | `tariffs/trade`, `AI/tech`, `cyber/data privacy`, `credit/liquidity`, `regulation/legal`, `competition`, `M&A/transactions`, `macro`, `other`, `not_a_risk` (codebook.md §2, §7) |
 | `Novelty` | `genuinely_new`, `reworded`, `null` (null for `not_a_risk`) |
 | `Industry` | `Rail`, `Restaurants`, `Waste`, `Apparel`, `E-commerce/payments` |
 
@@ -58,7 +58,7 @@ Rates and shares are decimals from 0 to 1. Dates are `YYYY-MM-DD`.
 | `n_new` / `n_modified` / `n_kept` | number | Latest units by TF-IDF status (best_sim < 0.50 / 0.50–0.80 / ≥ 0.80) |
 | `n_deleted` | number | Prior units with no latest match ≥ 0.50 |
 | `n_genuinely_new` | number | Candidates labelled `genuinely_new` |
-| `category_counts` | Record<Category, number> | Genuinely new risks by category; all nine keys present |
+| `category_counts` | Record<Category, number> | Genuinely new risks by category; all ten keys present |
 
 ## risks.json
 
@@ -94,7 +94,7 @@ Rates and shares are decimals from 0 to 1. Dates are `YYYY-MM-DD`.
 | `accuracy_risks_only` | number | Category accuracy where the human label is not `not_a_risk` |
 | `per_category[]` | object[] | One row per Category: `precision`, `recall`, `f1` (null when undefined), `support` (human count) |
 | `confusion.labels` | Category[] | Row/column order |
-| `confusion.matrix` | number[][] | 9×9 counts; rows = human label, columns = LLM label |
+| `confusion.matrix` | number[][] | 10×10 counts; rows = human label, columns = LLM label |
 | `novelty_accuracy` | number | Agreement on `novelty` |
 | `severity_exact` | number | Exact severity agreement |
 | `severity_within_1` | number | Severity agreement within one level |

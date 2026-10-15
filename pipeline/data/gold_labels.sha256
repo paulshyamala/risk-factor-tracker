@@ -1,0 +1,6 @@
+b0565807cc382b9a15096e7d2db4b385a326a5715795a2557a201b4501a04f05  gold_labels.xlsx
+file_modified: 2026-10-15T13:50:50-04:00
+snapshot_taken: 2026-10-15T13:51:03-04:00
+Human labels frozen before any LLM labelling.
+Codebook v1.3; stratified re-split before any LLM labelling.
+UNP_latest_030 recategorised to M&A/transactions (labeller decision).

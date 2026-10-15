@@ -13,9 +13,9 @@
     },
     {
       "category": "AI/tech",
-      "precision": 0.75,
+      "precision": 1.0,
       "recall": 0.75,
-      "f1": 0.75,
+      "f1": 0.857,
       "support": 4
     },
     {
@@ -34,24 +34,31 @@
     },
     {
       "category": "regulation/legal",
-      "precision": 1.0,
-      "recall": 0.714,
-      "f1": 0.833,
-      "support": 7
+      "precision": 0.8,
+      "recall": 0.667,
+      "f1": 0.727,
+      "support": 6
     },
     {
       "category": "competition",
       "precision": 0.8,
-      "recall": 0.8,
+      "recall": 1.0,
+      "f1": 0.889,
+      "support": 4
+    },
+    {
+      "category": "M&A/transactions",
+      "precision": 1.0,
+      "recall": 0.667,
       "f1": 0.8,
-      "support": 5
+      "support": 3
     },
     {
       "category": "macro",
-      "precision": 0.833,
-      "recall": 0.833,
-      "f1": 0.833,
-      "support": 6
+      "precision": 0.8,
+      "recall": 0.8,
+      "f1": 0.8,
+      "support": 5
     },
     {
       "category": "other",
@@ -76,6 +83,7 @@
       "credit/liquidity",
       "regulation/legal",
       "competition",
+      "M&A/transactions",
       "macro",
       "other",
       "not_a_risk"
@@ -90,6 +98,7 @@
         0,
         0,
         0,
+        0,
         0
       ],
       [
@@ -99,6 +108,7 @@
         0,
         0,
         1,
+        0,
         0,
         0,
         0
@@ -112,6 +122,7 @@
         0,
         0,
         0,
+        0,
         0
       ],
       [
@@ -123,28 +134,43 @@
         0,
         0,
         0,
-        0
-      ],
-      [
-        0,
-        0,
-        1,
-        1,
-        5,
-        0,
-        0,
         0,
         0
       ],
       [
         0,
+        0,
         1,
+        1,
+        4,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
         0,
         0,
         0,
         4,
         0,
         0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
         0
       ],
       [
@@ -154,11 +180,13 @@
         0,
         0,
         0,
-        5,
+        0,
+        4,
         0,
         0
       ],
       [
+        0,
         0,
         0,
         0,
@@ -170,6 +198,7 @@
         0
       ],
       [
+        0,
         0,
         0,
         0,

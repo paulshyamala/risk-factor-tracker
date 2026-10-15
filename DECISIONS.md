@@ -27,3 +27,22 @@ A running log of methodology decisions for the Risk-Factor Change Tracker. Each 
 - **2026-10-14** — Sampled kept units at 0.80–0.85 were near-identical paragraphs, confirming the kept cutoff.
 - **2026-10-14** — Deleted-paragraph analysis deferred: most "deleted" units in SBUX and EBAY are old versions of rewritten risks, not risks that were dropped. To revisit after LLM labelling.
 - **2026-10-14** — The gold sample hides TF-IDF status and similarity scores from the labeller. Reason: avoid anchoring the novelty judgment.
+
+## Gold set
+
+- **2026-10-15** — Codebook v1.3 adds `M&A/transactions`. Reason: after labelling, most genuinely new risks in "other" were about specific deals (UNP–NSC merger, Dickies and Depop divestitures); leaving them in "other" would hide the largest new-risk theme. Added before any LLM labelling; affected "other" rows remapped (6 rows: UNP_latest_022, UNP_latest_034, NSC_latest_006, VFC_latest_029, ETSY_latest_088, QSR_latest_017).
+- **2026-10-15** — Codebook v1.3 adds "Labelling notes" (§10) recording rules applied during gold labelling. Reason: the LLM receives the same guidance the labeller used.
+- **2026-10-15** — Gold split re-drawn, stratified by human novelty (seed 42; dev gets round(20 × 11/60) = 4 of the 11 genuinely new rows). Reason: the original random split put 1 of 10 genuinely new rows in dev, leaving no signal for tuning the novelty judgment. Re-drawn before any LLM output existed.
+- **2026-10-15** — First measurement of TF-IDF vs human novelty (60 gold rows): 11 of 22 TF-IDF "new" rows and 0 of 38 "modified" rows were judged genuinely new. Mean best_sim is 0.169 for genuinely_new vs 0.606 for reworded.
+
+## LLM labelling
+
+- **2026-10-15** — claude-haiku-5-5 rejects any temperature other than the default, so temperature is not set (logged as "api_default"). Output is constrained by a forced tool call with enum-only fields. Run-to-run stability is measured by labelling the dev set twice.
+- **2026-10-15** — Gold labels stay frozen after LLM outputs are seen, even where the LLM looks right. Disputed cases are recorded in the evaluation rather than changing the answer key.
+- **2026-10-15** — Model: claude-sonnet-5-5. Reason: on the 20 dev rows, Haiku found 0 of 4 genuinely new risks (1 on a rerun) and changed category on 3 rows between runs; Sonnet found 3 of 4 with higher category agreement (18/20 vs 14/20). Projected full-run cost ≈ $4 vs ≈ $0.19. Novelty recall is the project's main output, so it decides the model.
+- **2026-10-15** — Novelty agreement is not used as a headline metric: labelling every row "reworded" scores 16/20 on dev. Genuinely-new recall and precision are reported instead.
+- **2026-10-15** — Prompt v2 adds one severity calibration line. Reason: Sonnet v1 rated 5 human severity-2 rows as 1. Only one change was made, to limit overfitting on a 20-row dev set.
+- **2026-10-15** — Rows where both models disagreed with the human label in the same way are recorded in gold_disputes.csv; the gold labels are not changed.
+- **2026-10-15** — Prompt v2 (severity calibration line) made no measurable difference on dev (severity 11/20 in both; row-level changes looked like run-to-run noise). Reverted to v1, the simpler prompt that adds nothing beyond the codebook. Prompt frozen at v1 from here.
+- **2026-10-15** — The test set is labelled twice. Only the first run (test_v1_sonnet) is scored; the second (test_v1_sonnet_rep2) is used only to measure run-to-run stability.
+- **2026-10-15** — MAX_TOKENS raised from 800 to 1500 after EBAY_latest_010 hit the output limit twice (very long supporting sentence). Setting change only; prompt v1 unchanged (same prompt_hash). Only that row was re-run.

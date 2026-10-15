@@ -23,7 +23,7 @@ GOLD_PATH = DATA_DIR / "gold_labels.xlsx"
 # Label dropdowns for the gold sheet (codebook.md sections 2, 4-6).
 LABEL_OPTIONS = {
     "category": ["tariffs/trade", "AI/tech", "cyber/data privacy", "credit/liquidity",
-                 "regulation/legal", "competition", "macro", "other", "not_a_risk"],
+                 "regulation/legal", "competition", "M&A/transactions", "macro", "other", "not_a_risk"],
     "novelty": ["genuinely_new", "reworded", "n/a"],
     "novelty_uncertain": ["TRUE", "FALSE"],
     "severity": ["1", "2", "3", "n/a"],
@@ -251,13 +251,22 @@ def export_gold(matched):
     print(f"wrote {GOLD_PATH} and {DATA_DIR / 'gold_meta.csv'}")
 
 
+def gold_has_labels():
+    """True if any label cell in the existing gold sheet has a value."""
+    sheet = pd.read_excel(GOLD_PATH, dtype=object)
+    present = [c for c in LABEL_OPTIONS if c in sheet.columns]
+    return bool(sheet[present].notna().any().any())
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--gold", action="store_true", help="also export the gold labelling sample")
-    parser.add_argument("--force", action="store_true", help="with --gold, overwrite an existing gold_labels.xlsx")
     args = parser.parse_args()
-    if args.gold and GOLD_PATH.exists() and not args.force:
-        parser.error(f"{GOLD_PATH} already exists (it may hold hand labels); pass --force to overwrite")
+    if args.gold and GOLD_PATH.exists():
+        if gold_has_labels():
+            parser.error(f"{GOLD_PATH} holds frozen human labels; refusing to regenerate the gold sample. "
+                         "Move the file aside by hand only if you really mean to start labelling over.")
+        parser.error(f"{GOLD_PATH} already exists; delete it by hand first to regenerate the (unlabelled) sample")
 
     units, dropped, excluded = split_paragraphs(load_filings())
     print(f"{len(units):,} units kept, {len(dropped):,} dropped (< {MIN_CHARS} chars), "

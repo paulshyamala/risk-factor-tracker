@@ -1,7 +1,7 @@
 // Data contract for the JSON files in public/data/, written by pipeline/src/06_export.py.
 // See ../DATA_SCHEMA.md for what each file powers and how each field is computed.
 
-/** The nine codebook labels: eight risk categories plus not_a_risk (codebook.md §2, §7). */
+/** The ten codebook labels: nine risk categories plus not_a_risk (codebook.md §2, §7). */
 export type Category =
   | 'tariffs/trade'
   | 'AI/tech'
@@ -9,6 +9,7 @@ export type Category =
   | 'credit/liquidity'
   | 'regulation/legal'
   | 'competition'
+  | 'M&A/transactions'
   | 'macro'
   | 'other'
   | 'not_a_risk'
@@ -93,7 +94,7 @@ export interface Company {
   n_kept: number
   n_deleted: number
   n_genuinely_new: number
-  /** Genuinely new risks only, by category. All nine keys are present. */
+  /** Genuinely new risks only, by category. All ten keys are present. */
   category_counts: Record<Category, number>
 }
 

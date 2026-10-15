@@ -20,7 +20,7 @@ OUT = ROOT / "web" / "public" / "data"
 rng = np.random.default_rng(42)
 
 CATS = ["tariffs/trade", "AI/tech", "cyber/data privacy", "credit/liquidity", "regulation/legal",
-        "competition", "macro", "other", "not_a_risk"]
+        "competition", "M&A/transactions", "macro", "other", "not_a_risk"]
 COMPANIES = {  # ticker: (display name, industry, is_canadian)
     "SHOP": ("Shopify Inc.", "E-commerce/payments", True),
     "CP": ("Canadian Pacific Kansas City Limited", "Rail", True),
@@ -50,6 +50,7 @@ COMPANIES = {  # ticker: (display name, industry, is_canadian)
 }
 KEYWORDS = [  # rough keyword guess so mock categories look plausible against the real text
     ("tariffs/trade", r"tariff|trade polic|export control|sanction|import"),
+    ("M&A/transactions", r"merger|acquisition|divest|spin-off|separation"),
     ("cyber/data privacy", r"cyber|breach|ransomware|hack|personal (data|information)|privacy"),
     ("AI/tech", r"artificial intelligence|\bAI\b|machine learning|technology|software|systems"),
     ("credit/liquidity", r"indebtedness|debt|credit rating|liquidity|financing|borrow"),
@@ -133,10 +134,15 @@ for rank, s in enumerate(scores.sort_values("change_score", ascending=False).ite
     })
 write("companies.json", {"mock": True, "data": companies})
 
-# ---- eval: 9x9 confusion summing to 40, metrics derived from it ----
-support = np.array([5, 4, 4, 3, 7, 5, 6, 3, 3])  # human labels per category, sums to 40
+# ---- eval: square confusion over CATS summing to 40, metrics derived from it ----
+I = CATS.index
+support = np.array([5, 4, 4, 3, 6, 4, 3, 5, 3, 3])  # human labels per category (CATS order), sums to 40
+assert len(support) == len(CATS)
 matrix = np.diag(support).astype(int)
-for i, j in [(6, 0), (4, 2), (1, 5), (7, 6), (4, 3), (8, 7), (5, 1)]:  # 7 plausible confusions
+CONFUSIONS = [("macro", "tariffs/trade"), ("regulation/legal", "cyber/data privacy"), ("AI/tech", "competition"),
+              ("other", "macro"), ("regulation/legal", "credit/liquidity"), ("not_a_risk", "other"),
+              ("M&A/transactions", "regulation/legal")]  # (human, llm): 7 plausible confusions
+for i, j in [(I(h), I(l)) for h, l in CONFUSIONS]:
     matrix[i, i] -= 1
     matrix[i, j] += 1
 assert matrix.sum() == 40
@@ -147,9 +153,9 @@ for k, c in enumerate(CATS):
     rcl = tp[k] / true[k] if true[k] else None
     f1 = 2 * p * rcl / (p + rcl) if p and rcl else (0.0 if p is not None and rcl is not None else None)
     per_category.append({"category": c, "precision": r3(p), "recall": r3(rcl), "f1": r3(f1), "support": int(true[k])})
-risk_rows = slice(0, 8)
+risk_rows = [k for k, c in enumerate(CATS) if c != "not_a_risk"]
 test = cands.sample(5, random_state=7)  # any candidates; the real file uses test-set failures
-failure_pairs = [(6, 0), (4, 2), (1, 5), (7, 6), (4, 3)]
+failure_pairs = [(I(h), I(l)) for h, l in CONFUSIONS[:5]]
 failures = [{
     "paragraph_id": g.paragraph_id, "ticker": g.ticker, "text_excerpt": g.text[:400],
     "human_label": CATS[i], "llm_label": CATS[j],

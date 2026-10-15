@@ -1,0 +1,8 @@
+paragraph_id,field,human_value,llm_value,models_agreeing,note
+RSG_latest_027,category,not_a_risk,regulation/legal,haiku_v1_run1; haiku_v1_run2; sonnet_v1; sonnet_v2,Models read the paragraph as greenhouse-gas / carbon-pricing compliance cost (codebook 2.5 tie-break: carbon taxes -> regulation/legal); human labelled it not_a_risk.
+RSG_latest_027,novelty,n/a,reworded,haiku_v1_run1; haiku_v1_run2; sonnet_v1; sonnet_v2,Follows from the category dispute: novelty is n/a only for not_a_risk.
+RSG_latest_027,severity,n/a,2,haiku_v1_run1; haiku_v1_run2; sonnet_v1; sonnet_v2,Follows from the category dispute: severity is n/a only for not_a_risk.
+ETSY_latest_121,mentions_ai,FALSE,TRUE,haiku_v1_run1; haiku_v1_run2; sonnet_v1; sonnet_v2,Text lists 'artificial intelligence' among the regulatory regimes Etsy faces; codebook 6 counts any explicit AI mention.
+XYZ_latest_106,mentions_ai,FALSE,TRUE,haiku_v1_run1; haiku_v1_run2; sonnet_v1; sonnet_v2,Text mentions 'increased reliance on automation and AI tools' for compliance functions; codebook 6 counts any explicit AI mention.
+VFC_latest_029,novelty,genuinely_new,reworded,haiku_v1_run1; haiku_v1_run2; sonnet_v1; sonnet_v2,Models treat the Dickies separation risk as a restatement of the prior-year divestiture/separation risk (Supreme sale).
+CP_latest_043,category,macro,tariffs/trade,haiku_v1_run1; haiku_v1_run2; sonnet_v1; sonnet_v2,"Models take the tariff / USMCA sentences as the central risk; the paragraph opens with global economic conditions, which the human treated as central."

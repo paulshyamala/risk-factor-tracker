@@ -6,3 +6,4 @@ yfinance
 anthropic
 plotly
 openpyxl
+python-dotenv
