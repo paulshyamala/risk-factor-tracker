@@ -1,0 +1,2120 @@
+{
+  "meta": {
+    "model": "claude-sonnet-5-5",
+    "prompt_version": "v1",
+    "prompt_hash": "d119bf014e644965e2466342da7170177a8a6b617d6076710aff1c315fdaaf8f",
+    "codebook_version": "1.3",
+    "gold_sha256": "b0565807cc382b9a15096e7d2db4b385a326a5715795a2557a201b4501a04f05"
+  },
+  "category": {
+    "run": "test_v1_sonnet",
+    "accuracy_all": {
+      "correct": 34,
+      "n": 40,
+      "accuracy": 0.85,
+      "ci95": [
+        0.7092737396097997,
+        0.9293890829149256
+      ]
+    },
+    "accuracy_risks_only": {
+      "correct": 33,
+      "n": 39,
+      "accuracy": 0.8461538461538461,
+      "ci95": [
+        0.7027023013426569,
+        0.9275262615494854
+      ]
+    },
+    "per_category": [
+      {
+        "category": "tariffs/trade",
+        "support": 2,
+        "predicted": 2,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      {
+        "category": "AI/tech",
+        "support": 4,
+        "predicted": 4,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      {
+        "category": "cyber/data privacy",
+        "support": 2,
+        "predicted": 2,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      {
+        "category": "credit/liquidity",
+        "support": 4,
+        "predicted": 2,
+        "precision": 1.0,
+        "recall": 0.5,
+        "f1": 0.6666666666666666
+      },
+      {
+        "category": "regulation/legal",
+        "support": 9,
+        "predicted": 8,
+        "precision": 0.875,
+        "recall": 0.7777777777777778,
+        "f1": 0.823529411764706
+      },
+      {
+        "category": "competition",
+        "support": 2,
+        "predicted": 3,
+        "precision": 0.3333333333333333,
+        "recall": 0.5,
+        "f1": 0.4
+      },
+      {
+        "category": "M&A/transactions",
+        "support": 6,
+        "predicted": 6,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      {
+        "category": "macro",
+        "support": 2,
+        "predicted": 2,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      {
+        "category": "other",
+        "support": 8,
+        "predicted": 10,
+        "precision": 0.7,
+        "recall": 0.875,
+        "f1": 0.7777777777777777
+      },
+      {
+        "category": "not_a_risk",
+        "support": 1,
+        "predicted": 1,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    ],
+    "confusion": {
+      "rows": "human",
+      "columns": "llm",
+      "labels": [
+        "tariffs/trade",
+        "AI/tech",
+        "cyber/data privacy",
+        "credit/liquidity",
+        "regulation/legal",
+        "competition",
+        "M&A/transactions",
+        "macro",
+        "other",
+        "not_a_risk"
+      ],
+      "matrix": [
+        [
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          2,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          7,
+          1,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          6,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          7,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    "errors": [
+      {
+        "paragraph_id": "CMG_latest_041",
+        "ticker": "CMG",
+        "human": "credit/liquidity",
+        "llm": "other",
+        "reason": "Stock price volatility from missing guidance fits no specific category and restates the prior-year risk of missing market expectations.",
+        "text": "Failure to meet market expectations for our financial performance or any announced guidance will likely adversely affect the market price and increase the volatility of our stock, and fluctuations in "
+      },
+      {
+        "paragraph_id": "ETSY_latest_013",
+        "ticker": "ETSY",
+        "human": "other",
+        "llm": "competition",
+        "reason": "Central risk is losing sellers and buyers through poor support perception, largely restating match 1 with an added note on disbursement holds.",
+        "text": "A perception that our marketplaces’ levels of responsiveness and support for our sellers and buyers are inadequate could damage our reputation, and reduce our sellers’ willingness to sell and buyers’ "
+      },
+      {
+        "paragraph_id": "MCD_latest_015",
+        "ticker": "MCD",
+        "human": "regulation/legal",
+        "llm": "other",
+        "reason": "Intellectual property protection risk fits no specific category; the AI mention only adds an example to existing IP risks already disclosed.",
+        "text": "We cannot ensure that franchisees and other third parties who hold licenses to our intellectual property will not take actions that adversely affect the value of our intellectual property.  Moreover, "
+      },
+      {
+        "paragraph_id": "PYPL_latest_019",
+        "ticker": "PYPL",
+        "human": "credit/liquidity",
+        "llm": "regulation/legal",
+        "reason": "Prior-year match 1 already covers crypto licensing and regulatory risk; the GENIUS Act is a new regulation added to the same exposure.",
+        "text": "Our customer cryptocurrency offerings may subject us to additional regulations, licensing requirements, or other obligations or liabilities. Within the U.S., we are regulated by the New York State Dep"
+      },
+      {
+        "paragraph_id": "WEN_latest_014",
+        "ticker": "WEN",
+        "human": "regulation/legal",
+        "llm": "competition",
+        "reason": "Nearly identical to the last sentences of prior-year match 1, with only \"litigation\" added; the risk is reduced demand from consumer health concerns.",
+        "text": "The Wendy’s system may also be adversely impacted by consumer or regulatory concerns or litigation regarding the nutritional aspects of the products we sell, the ingredients in our products or the coo"
+      },
+      {
+        "paragraph_id": "WM_latest_024",
+        "ticker": "WM",
+        "human": "competition",
+        "llm": "other",
+        "reason": "Central risk is workforce attraction and retention, already disclosed in the prior-year workforce risk; the added employment-regulation compliance language is secondary.",
+        "text": "If we are unable to attract, hire, develop and retain key team members and a high-quality workforce, and comply with applicable employment regulations, it could result in business and strategic disrup"
+      }
+    ]
+  },
+  "novelty": {
+    "run": "test_v1_sonnet",
+    "rows": 39,
+    "human_genuinely_new": 7,
+    "llm_na_scored_as_reworded": 0,
+    "llm": {
+      "tp": 7,
+      "fp": 0,
+      "fn": 0,
+      "tn": 32,
+      "precision": {
+        "value": 1.0,
+        "k": 7,
+        "n": 7,
+        "ci95": [
+          0.6456611570247934,
+          1.0
+        ]
+      },
+      "recall": {
+        "value": 1.0,
+        "k": 7,
+        "n": 7,
+        "ci95": [
+          0.6456611570247934,
+          1.0
+        ]
+      },
+      "f1": 1.0,
+      "agreement": {
+        "value": 1.0,
+        "k": 39,
+        "n": 39,
+        "ci95": [
+          0.9103301463997611,
+          1.0
+        ]
+      }
+    },
+    "baselines": {
+      "always_reworded": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 7,
+        "tn": 32,
+        "precision": {
+          "value": null,
+          "k": 0,
+          "n": 0,
+          "ci95": [
+            null,
+            null
+          ]
+        },
+        "recall": {
+          "value": 0.0,
+          "k": 0,
+          "n": 7,
+          "ci95": [
+            0.0,
+            0.35433884297520657
+          ]
+        },
+        "f1": null,
+        "agreement": {
+          "value": 0.8205128205128205,
+          "k": 32,
+          "n": 39,
+          "ci95": [
+            0.6733164837555724,
+            0.9102284818853
+          ]
+        }
+      },
+      "tfidf_only": {
+        "tp": 7,
+        "fp": 8,
+        "fn": 0,
+        "tn": 24,
+        "precision": {
+          "value": 0.4666666666666667,
+          "k": 7,
+          "n": 15,
+          "ci95": [
+            0.24809225259746442,
+            0.6988336984894921
+          ]
+        },
+        "recall": {
+          "value": 1.0,
+          "k": 7,
+          "n": 7,
+          "ci95": [
+            0.6456611570247934,
+            1.0
+          ]
+        },
+        "f1": 0.6363636363636364,
+        "agreement": {
+          "value": 0.7948717948717948,
+          "k": 31,
+          "n": 39,
+          "ci95": [
+            0.6446572703687138,
+            0.8922040980208888
+          ]
+        }
+      }
+    },
+    "false_negatives": [],
+    "false_positives": []
+  },
+  "severity": {
+    "rows": 39,
+    "exact": {
+      "value": 0.6410256410256411,
+      "k": 25,
+      "n": 39,
+      "ci95": [
+        0.484178631846895,
+        0.772581153035089
+      ]
+    },
+    "within_1": {
+      "value": 0.9743589743589743,
+      "k": 38,
+      "n": 39,
+      "ci95": [
+        0.8681871352137286,
+        0.9954594139347627
+      ]
+    },
+    "confusion": {
+      "rows": "human",
+      "columns": "llm",
+      "labels": [
+        1,
+        2,
+        3
+      ],
+      "matrix": [
+        [
+          5,
+          5,
+          0
+        ],
+        [
+          3,
+          17,
+          0
+        ],
+        [
+          1,
+          5,
+          3
+        ]
+      ]
+    },
+    "llm_higher": 5,
+    "llm_lower": 9
+  },
+  "mentions_ai": {
+    "rows": 40,
+    "tp": 4,
+    "fp": 1,
+    "fn": 1,
+    "tn": 34,
+    "agreement": {
+      "value": 0.95,
+      "k": 38,
+      "n": 40,
+      "ci95": [
+        0.834958291820748,
+        0.9861796228538989
+      ]
+    },
+    "precision": {
+      "value": 0.8,
+      "k": 4,
+      "n": 5,
+      "ci95": [
+        0.3755282641185388,
+        0.9637768390302125
+      ]
+    },
+    "recall": {
+      "value": 0.8,
+      "k": 4,
+      "n": 5,
+      "ci95": [
+        0.3755282641185388,
+        0.9637768390302125
+      ]
+    }
+  },
+  "quote": {
+    "run": "test_v1_sonnet",
+    "value": 1.0,
+    "k": 40,
+    "n": 40,
+    "ci95": [
+      0.9123754607496077,
+      1.0
+    ]
+  },
+  "dispute_adjusted": {
+    "excluded_rows": {
+      "category": [
+        "PYPL_latest_019"
+      ],
+      "novelty": [],
+      "severity": [],
+      "mentions_ai": [
+        "MCD_latest_015"
+      ]
+    },
+    "added_after_scoring": [
+      {
+        "paragraph_id": "PYPL_latest_019",
+        "field": "category"
+      },
+      {
+        "paragraph_id": "MCD_latest_015",
+        "field": "mentions_ai"
+      }
+    ],
+    "strict": {
+      "category_accuracy": {
+        "correct": 34,
+        "n": 40,
+        "accuracy": 0.85,
+        "ci95": [
+          0.7092737396097997,
+          0.9293890829149256
+        ]
+      },
+      "novelty_precision": {
+        "value": 1.0,
+        "k": 7,
+        "n": 7,
+        "ci95": [
+          0.6456611570247934,
+          1.0
+        ]
+      },
+      "novelty_recall": {
+        "value": 1.0,
+        "k": 7,
+        "n": 7,
+        "ci95": [
+          0.6456611570247934,
+          1.0
+        ]
+      },
+      "severity_exact": {
+        "value": 0.6410256410256411,
+        "k": 25,
+        "n": 39,
+        "ci95": [
+          0.484178631846895,
+          0.772581153035089
+        ]
+      },
+      "mentions_ai_agreement": {
+        "value": 0.95,
+        "k": 38,
+        "n": 40,
+        "ci95": [
+          0.834958291820748,
+          0.9861796228538989
+        ]
+      }
+    },
+    "adjusted": {
+      "category_accuracy": {
+        "value": 0.8717948717948718,
+        "k": 34,
+        "n": 39,
+        "ci95": [
+          0.7329395096236953,
+          0.9439726505197168
+        ]
+      },
+      "novelty_precision": {
+        "value": 1.0,
+        "k": 7,
+        "n": 7,
+        "ci95": [
+          0.6456611570247934,
+          1.0
+        ]
+      },
+      "novelty_recall": {
+        "value": 1.0,
+        "k": 7,
+        "n": 7,
+        "ci95": [
+          0.6456611570247934,
+          1.0
+        ]
+      },
+      "severity_exact": {
+        "value": 0.6410256410256411,
+        "k": 25,
+        "n": 39,
+        "ci95": [
+          0.484178631846895,
+          0.772581153035089
+        ]
+      },
+      "mentions_ai_agreement": {
+        "value": 0.9743589743589743,
+        "k": 38,
+        "n": 39,
+        "ci95": [
+          0.8681871352137286,
+          0.9954594139347627
+        ]
+      }
+    }
+  },
+  "stability": {
+    "runs": [
+      "test_v1_sonnet",
+      "test_v1_sonnet_rep2"
+    ],
+    "agreement": {
+      "category": {
+        "value": 0.925,
+        "k": 37,
+        "n": 40,
+        "ci95": [
+          0.8013546984090248,
+          0.9741644432281419
+        ]
+      },
+      "novelty": {
+        "value": 0.95,
+        "k": 38,
+        "n": 40,
+        "ci95": [
+          0.834958291820748,
+          0.9861796228538989
+        ]
+      },
+      "severity": {
+        "value": 0.85,
+        "k": 34,
+        "n": 40,
+        "ci95": [
+          0.7092737396097997,
+          0.9293890829149256
+        ]
+      },
+      "mentions_ai": {
+        "value": 1.0,
+        "k": 40,
+        "n": 40,
+        "ci95": [
+          0.9123754607496077,
+          1.0
+        ]
+      }
+    },
+    "rep2_novelty": {
+      "precision": {
+        "value": 1.0,
+        "k": 6,
+        "n": 6,
+        "ci95": [
+          0.6096569663469354,
+          0.9999999999999999
+        ]
+      },
+      "recall": {
+        "value": 0.8571428571428571,
+        "k": 6,
+        "n": 7,
+        "ci95": [
+          0.48686549668097007,
+          0.9743210440510253
+        ]
+      },
+      "note": "stability check only, not a score"
+    }
+  },
+  "raw": {
+    "run": "test_v1_sonnet",
+    "category": {
+      "run": "test_v1_sonnet",
+      "accuracy_all": {
+        "correct": 34,
+        "n": 40,
+        "accuracy": 0.85,
+        "ci95": [
+          0.7092737396097997,
+          0.9293890829149256
+        ]
+      },
+      "accuracy_risks_only": {
+        "correct": 33,
+        "n": 39,
+        "accuracy": 0.8461538461538461,
+        "ci95": [
+          0.7027023013426569,
+          0.9275262615494854
+        ]
+      },
+      "per_category": [
+        {
+          "category": "tariffs/trade",
+          "support": 2,
+          "predicted": 2,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        {
+          "category": "AI/tech",
+          "support": 4,
+          "predicted": 4,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        {
+          "category": "cyber/data privacy",
+          "support": 2,
+          "predicted": 2,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        {
+          "category": "credit/liquidity",
+          "support": 4,
+          "predicted": 2,
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.6666666666666666
+        },
+        {
+          "category": "regulation/legal",
+          "support": 9,
+          "predicted": 8,
+          "precision": 0.875,
+          "recall": 0.7777777777777778,
+          "f1": 0.823529411764706
+        },
+        {
+          "category": "competition",
+          "support": 2,
+          "predicted": 3,
+          "precision": 0.3333333333333333,
+          "recall": 0.5,
+          "f1": 0.4
+        },
+        {
+          "category": "M&A/transactions",
+          "support": 6,
+          "predicted": 6,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        {
+          "category": "macro",
+          "support": 2,
+          "predicted": 2,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        {
+          "category": "other",
+          "support": 8,
+          "predicted": 10,
+          "precision": 0.7,
+          "recall": 0.875,
+          "f1": 0.7777777777777777
+        },
+        {
+          "category": "not_a_risk",
+          "support": 1,
+          "predicted": 1,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      ],
+      "confusion": {
+        "rows": "human",
+        "columns": "llm",
+        "labels": [
+          "tariffs/trade",
+          "AI/tech",
+          "cyber/data privacy",
+          "credit/liquidity",
+          "regulation/legal",
+          "competition",
+          "M&A/transactions",
+          "macro",
+          "other",
+          "not_a_risk"
+        ],
+        "matrix": [
+          [
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            4,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            2,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            7,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            6,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            7,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ]
+        ]
+      },
+      "errors": [
+        {
+          "paragraph_id": "CMG_latest_041",
+          "ticker": "CMG",
+          "human": "credit/liquidity",
+          "llm": "other",
+          "reason": "Stock price volatility from missing guidance fits no specific category and restates the prior-year risk of missing market expectations.",
+          "text": "Failure to meet market expectations for our financial performance or any announced guidance will likely adversely affect the market price and increase the volatility of our stock, and fluctuations in "
+        },
+        {
+          "paragraph_id": "ETSY_latest_013",
+          "ticker": "ETSY",
+          "human": "other",
+          "llm": "competition",
+          "reason": "Central risk is losing sellers and buyers through poor support perception, largely restating match 1 with an added note on disbursement holds.",
+          "text": "A perception that our marketplaces’ levels of responsiveness and support for our sellers and buyers are inadequate could damage our reputation, and reduce our sellers’ willingness to sell and buyers’ "
+        },
+        {
+          "paragraph_id": "MCD_latest_015",
+          "ticker": "MCD",
+          "human": "regulation/legal",
+          "llm": "other",
+          "reason": "Intellectual property protection risk fits no specific category; the AI mention only adds an example to existing IP risks already disclosed.",
+          "text": "We cannot ensure that franchisees and other third parties who hold licenses to our intellectual property will not take actions that adversely affect the value of our intellectual property.  Moreover, "
+        },
+        {
+          "paragraph_id": "PYPL_latest_019",
+          "ticker": "PYPL",
+          "human": "credit/liquidity",
+          "llm": "regulation/legal",
+          "reason": "Prior-year match 1 already covers crypto licensing and regulatory risk; the GENIUS Act is a new regulation added to the same exposure.",
+          "text": "Our customer cryptocurrency offerings may subject us to additional regulations, licensing requirements, or other obligations or liabilities. Within the U.S., we are regulated by the New York State Dep"
+        },
+        {
+          "paragraph_id": "WEN_latest_014",
+          "ticker": "WEN",
+          "human": "regulation/legal",
+          "llm": "competition",
+          "reason": "Nearly identical to the last sentences of prior-year match 1, with only \"litigation\" added; the risk is reduced demand from consumer health concerns.",
+          "text": "The Wendy’s system may also be adversely impacted by consumer or regulatory concerns or litigation regarding the nutritional aspects of the products we sell, the ingredients in our products or the coo"
+        },
+        {
+          "paragraph_id": "WM_latest_024",
+          "ticker": "WM",
+          "human": "competition",
+          "llm": "other",
+          "reason": "Central risk is workforce attraction and retention, already disclosed in the prior-year workforce risk; the added employment-regulation compliance language is secondary.",
+          "text": "If we are unable to attract, hire, develop and retain key team members and a high-quality workforce, and comply with applicable employment regulations, it could result in business and strategic disrup"
+        }
+      ]
+    },
+    "novelty": {
+      "run": "test_v1_sonnet",
+      "rows": 39,
+      "human_genuinely_new": 7,
+      "llm_na_scored_as_reworded": 0,
+      "llm": {
+        "tp": 7,
+        "fp": 0,
+        "fn": 0,
+        "tn": 32,
+        "precision": {
+          "value": 1.0,
+          "k": 7,
+          "n": 7,
+          "ci95": [
+            0.6456611570247934,
+            1.0
+          ]
+        },
+        "recall": {
+          "value": 1.0,
+          "k": 7,
+          "n": 7,
+          "ci95": [
+            0.6456611570247934,
+            1.0
+          ]
+        },
+        "f1": 1.0,
+        "agreement": {
+          "value": 1.0,
+          "k": 39,
+          "n": 39,
+          "ci95": [
+            0.9103301463997611,
+            1.0
+          ]
+        }
+      },
+      "baselines": {
+        "always_reworded": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 7,
+          "tn": 32,
+          "precision": {
+            "value": null,
+            "k": 0,
+            "n": 0,
+            "ci95": [
+              null,
+              null
+            ]
+          },
+          "recall": {
+            "value": 0.0,
+            "k": 0,
+            "n": 7,
+            "ci95": [
+              0.0,
+              0.35433884297520657
+            ]
+          },
+          "f1": null,
+          "agreement": {
+            "value": 0.8205128205128205,
+            "k": 32,
+            "n": 39,
+            "ci95": [
+              0.6733164837555724,
+              0.9102284818853
+            ]
+          }
+        },
+        "tfidf_only": {
+          "tp": 7,
+          "fp": 8,
+          "fn": 0,
+          "tn": 24,
+          "precision": {
+            "value": 0.4666666666666667,
+            "k": 7,
+            "n": 15,
+            "ci95": [
+              0.24809225259746442,
+              0.6988336984894921
+            ]
+          },
+          "recall": {
+            "value": 1.0,
+            "k": 7,
+            "n": 7,
+            "ci95": [
+              0.6456611570247934,
+              1.0
+            ]
+          },
+          "f1": 0.6363636363636364,
+          "agreement": {
+            "value": 0.7948717948717948,
+            "k": 31,
+            "n": 39,
+            "ci95": [
+              0.6446572703687138,
+              0.8922040980208888
+            ]
+          }
+        }
+      },
+      "false_negatives": [],
+      "false_positives": []
+    },
+    "severity": {
+      "rows": 39,
+      "exact": {
+        "value": 0.6410256410256411,
+        "k": 25,
+        "n": 39,
+        "ci95": [
+          0.484178631846895,
+          0.772581153035089
+        ]
+      },
+      "within_1": {
+        "value": 0.9743589743589743,
+        "k": 38,
+        "n": 39,
+        "ci95": [
+          0.8681871352137286,
+          0.9954594139347627
+        ]
+      },
+      "confusion": {
+        "rows": "human",
+        "columns": "llm",
+        "labels": [
+          1,
+          2,
+          3
+        ],
+        "matrix": [
+          [
+            5,
+            5,
+            0
+          ],
+          [
+            3,
+            17,
+            0
+          ],
+          [
+            1,
+            5,
+            3
+          ]
+        ]
+      },
+      "llm_higher": 5,
+      "llm_lower": 9
+    },
+    "mentions_ai": {
+      "rows": 40,
+      "tp": 4,
+      "fp": 1,
+      "fn": 1,
+      "tn": 34,
+      "agreement": {
+        "value": 0.95,
+        "k": 38,
+        "n": 40,
+        "ci95": [
+          0.834958291820748,
+          0.9861796228538989
+        ]
+      },
+      "precision": {
+        "value": 0.8,
+        "k": 4,
+        "n": 5,
+        "ci95": [
+          0.3755282641185388,
+          0.9637768390302125
+        ]
+      },
+      "recall": {
+        "value": 0.8,
+        "k": 4,
+        "n": 5,
+        "ci95": [
+          0.3755282641185388,
+          0.9637768390302125
+        ]
+      }
+    },
+    "quote": {
+      "run": "test_v1_sonnet",
+      "value": 1.0,
+      "k": 40,
+      "n": 40,
+      "ci95": [
+        0.9123754607496077,
+        1.0
+      ]
+    },
+    "dispute_adjusted": {
+      "excluded_rows": {
+        "category": [
+          "PYPL_latest_019"
+        ],
+        "novelty": [],
+        "severity": [],
+        "mentions_ai": [
+          "MCD_latest_015"
+        ]
+      },
+      "added_after_scoring": [
+        {
+          "paragraph_id": "PYPL_latest_019",
+          "field": "category"
+        },
+        {
+          "paragraph_id": "MCD_latest_015",
+          "field": "mentions_ai"
+        }
+      ],
+      "strict": {
+        "category_accuracy": {
+          "correct": 34,
+          "n": 40,
+          "accuracy": 0.85,
+          "ci95": [
+            0.7092737396097997,
+            0.9293890829149256
+          ]
+        },
+        "novelty_precision": {
+          "value": 1.0,
+          "k": 7,
+          "n": 7,
+          "ci95": [
+            0.6456611570247934,
+            1.0
+          ]
+        },
+        "novelty_recall": {
+          "value": 1.0,
+          "k": 7,
+          "n": 7,
+          "ci95": [
+            0.6456611570247934,
+            1.0
+          ]
+        },
+        "severity_exact": {
+          "value": 0.6410256410256411,
+          "k": 25,
+          "n": 39,
+          "ci95": [
+            0.484178631846895,
+            0.772581153035089
+          ]
+        },
+        "mentions_ai_agreement": {
+          "value": 0.95,
+          "k": 38,
+          "n": 40,
+          "ci95": [
+            0.834958291820748,
+            0.9861796228538989
+          ]
+        }
+      },
+      "adjusted": {
+        "category_accuracy": {
+          "value": 0.8717948717948718,
+          "k": 34,
+          "n": 39,
+          "ci95": [
+            0.7329395096236953,
+            0.9439726505197168
+          ]
+        },
+        "novelty_precision": {
+          "value": 1.0,
+          "k": 7,
+          "n": 7,
+          "ci95": [
+            0.6456611570247934,
+            1.0
+          ]
+        },
+        "novelty_recall": {
+          "value": 1.0,
+          "k": 7,
+          "n": 7,
+          "ci95": [
+            0.6456611570247934,
+            1.0
+          ]
+        },
+        "severity_exact": {
+          "value": 0.6410256410256411,
+          "k": 25,
+          "n": 39,
+          "ci95": [
+            0.484178631846895,
+            0.772581153035089
+          ]
+        },
+        "mentions_ai_agreement": {
+          "value": 0.9743589743589743,
+          "k": 38,
+          "n": 39,
+          "ci95": [
+            0.8681871352137286,
+            0.9954594139347627
+          ]
+        }
+      }
+    },
+    "stability": {
+      "runs": [
+        "test_v1_sonnet",
+        "test_v1_sonnet_rep2"
+      ],
+      "agreement": {
+        "category": {
+          "value": 0.925,
+          "k": 37,
+          "n": 40,
+          "ci95": [
+            0.8013546984090248,
+            0.9741644432281419
+          ]
+        },
+        "novelty": {
+          "value": 0.95,
+          "k": 38,
+          "n": 40,
+          "ci95": [
+            0.834958291820748,
+            0.9861796228538989
+          ]
+        },
+        "severity": {
+          "value": 0.85,
+          "k": 34,
+          "n": 40,
+          "ci95": [
+            0.7092737396097997,
+            0.9293890829149256
+          ]
+        },
+        "mentions_ai": {
+          "value": 1.0,
+          "k": 40,
+          "n": 40,
+          "ci95": [
+            0.9123754607496077,
+            1.0
+          ]
+        }
+      },
+      "rep2_novelty": {
+        "precision": {
+          "value": 1.0,
+          "k": 6,
+          "n": 6,
+          "ci95": [
+            0.6096569663469354,
+            0.9999999999999999
+          ]
+        },
+        "recall": {
+          "value": 0.8571428571428571,
+          "k": 6,
+          "n": 7,
+          "ci95": [
+            0.48686549668097007,
+            0.9743210440510253
+          ]
+        },
+        "note": "stability check only, not a score"
+      }
+    }
+  },
+  "final": {
+    "run": "test_v1_sonnet_final",
+    "category": {
+      "run": "test_v1_sonnet_final",
+      "accuracy_all": {
+        "correct": 34,
+        "n": 40,
+        "accuracy": 0.85,
+        "ci95": [
+          0.7092737396097997,
+          0.9293890829149256
+        ]
+      },
+      "accuracy_risks_only": {
+        "correct": 33,
+        "n": 39,
+        "accuracy": 0.8461538461538461,
+        "ci95": [
+          0.7027023013426569,
+          0.9275262615494854
+        ]
+      },
+      "per_category": [
+        {
+          "category": "tariffs/trade",
+          "support": 2,
+          "predicted": 2,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        {
+          "category": "AI/tech",
+          "support": 4,
+          "predicted": 4,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        {
+          "category": "cyber/data privacy",
+          "support": 2,
+          "predicted": 2,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        {
+          "category": "credit/liquidity",
+          "support": 4,
+          "predicted": 2,
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.6666666666666666
+        },
+        {
+          "category": "regulation/legal",
+          "support": 9,
+          "predicted": 8,
+          "precision": 0.875,
+          "recall": 0.7777777777777778,
+          "f1": 0.823529411764706
+        },
+        {
+          "category": "competition",
+          "support": 2,
+          "predicted": 3,
+          "precision": 0.3333333333333333,
+          "recall": 0.5,
+          "f1": 0.4
+        },
+        {
+          "category": "M&A/transactions",
+          "support": 6,
+          "predicted": 6,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        {
+          "category": "macro",
+          "support": 2,
+          "predicted": 2,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        {
+          "category": "other",
+          "support": 8,
+          "predicted": 10,
+          "precision": 0.7,
+          "recall": 0.875,
+          "f1": 0.7777777777777777
+        },
+        {
+          "category": "not_a_risk",
+          "support": 1,
+          "predicted": 1,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      ],
+      "confusion": {
+        "rows": "human",
+        "columns": "llm",
+        "labels": [
+          "tariffs/trade",
+          "AI/tech",
+          "cyber/data privacy",
+          "credit/liquidity",
+          "regulation/legal",
+          "competition",
+          "M&A/transactions",
+          "macro",
+          "other",
+          "not_a_risk"
+        ],
+        "matrix": [
+          [
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            4,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            2,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            7,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            6,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            7,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ]
+        ]
+      },
+      "errors": [
+        {
+          "paragraph_id": "CMG_latest_041",
+          "ticker": "CMG",
+          "human": "credit/liquidity",
+          "llm": "other",
+          "reason": "Stock price volatility from missing guidance fits no specific category and restates the prior-year risk of missing market expectations.",
+          "text": "Failure to meet market expectations for our financial performance or any announced guidance will likely adversely affect the market price and increase the volatility of our stock, and fluctuations in "
+        },
+        {
+          "paragraph_id": "ETSY_latest_013",
+          "ticker": "ETSY",
+          "human": "other",
+          "llm": "competition",
+          "reason": "Central risk is losing sellers and buyers through poor support perception, largely restating match 1 with an added note on disbursement holds.",
+          "text": "A perception that our marketplaces’ levels of responsiveness and support for our sellers and buyers are inadequate could damage our reputation, and reduce our sellers’ willingness to sell and buyers’ "
+        },
+        {
+          "paragraph_id": "MCD_latest_015",
+          "ticker": "MCD",
+          "human": "regulation/legal",
+          "llm": "other",
+          "reason": "Intellectual property protection risk fits no specific category; the AI mention only adds an example to existing IP risks already disclosed.",
+          "text": "We cannot ensure that franchisees and other third parties who hold licenses to our intellectual property will not take actions that adversely affect the value of our intellectual property.  Moreover, "
+        },
+        {
+          "paragraph_id": "PYPL_latest_019",
+          "ticker": "PYPL",
+          "human": "credit/liquidity",
+          "llm": "regulation/legal",
+          "reason": "Prior-year match 1 already covers crypto licensing and regulatory risk; the GENIUS Act is a new regulation added to the same exposure.",
+          "text": "Our customer cryptocurrency offerings may subject us to additional regulations, licensing requirements, or other obligations or liabilities. Within the U.S., we are regulated by the New York State Dep"
+        },
+        {
+          "paragraph_id": "WEN_latest_014",
+          "ticker": "WEN",
+          "human": "regulation/legal",
+          "llm": "competition",
+          "reason": "Nearly identical to the last sentences of prior-year match 1, with only \"litigation\" added; the risk is reduced demand from consumer health concerns.",
+          "text": "The Wendy’s system may also be adversely impacted by consumer or regulatory concerns or litigation regarding the nutritional aspects of the products we sell, the ingredients in our products or the coo"
+        },
+        {
+          "paragraph_id": "WM_latest_024",
+          "ticker": "WM",
+          "human": "competition",
+          "llm": "other",
+          "reason": "Central risk is workforce attraction and retention, already disclosed in the prior-year workforce risk; the added employment-regulation compliance language is secondary.",
+          "text": "If we are unable to attract, hire, develop and retain key team members and a high-quality workforce, and comply with applicable employment regulations, it could result in business and strategic disrup"
+        }
+      ]
+    },
+    "novelty": {
+      "run": "test_v1_sonnet_final",
+      "rows": 39,
+      "human_genuinely_new": 7,
+      "llm_na_scored_as_reworded": 0,
+      "llm": {
+        "tp": 6,
+        "fp": 0,
+        "fn": 1,
+        "tn": 32,
+        "precision": {
+          "value": 1.0,
+          "k": 6,
+          "n": 6,
+          "ci95": [
+            0.6096569663469354,
+            0.9999999999999999
+          ]
+        },
+        "recall": {
+          "value": 0.8571428571428571,
+          "k": 6,
+          "n": 7,
+          "ci95": [
+            0.48686549668097007,
+            0.9743210440510253
+          ]
+        },
+        "f1": 0.923076923076923,
+        "agreement": {
+          "value": 0.9743589743589743,
+          "k": 38,
+          "n": 39,
+          "ci95": [
+            0.8681871352137286,
+            0.9954594139347627
+          ]
+        }
+      },
+      "baselines": {
+        "always_reworded": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 7,
+          "tn": 32,
+          "precision": {
+            "value": null,
+            "k": 0,
+            "n": 0,
+            "ci95": [
+              null,
+              null
+            ]
+          },
+          "recall": {
+            "value": 0.0,
+            "k": 0,
+            "n": 7,
+            "ci95": [
+              0.0,
+              0.35433884297520657
+            ]
+          },
+          "f1": null,
+          "agreement": {
+            "value": 0.8205128205128205,
+            "k": 32,
+            "n": 39,
+            "ci95": [
+              0.6733164837555724,
+              0.9102284818853
+            ]
+          }
+        },
+        "tfidf_only": {
+          "tp": 7,
+          "fp": 8,
+          "fn": 0,
+          "tn": 24,
+          "precision": {
+            "value": 0.4666666666666667,
+            "k": 7,
+            "n": 15,
+            "ci95": [
+              0.24809225259746442,
+              0.6988336984894921
+            ]
+          },
+          "recall": {
+            "value": 1.0,
+            "k": 7,
+            "n": 7,
+            "ci95": [
+              0.6456611570247934,
+              1.0
+            ]
+          },
+          "f1": 0.6363636363636364,
+          "agreement": {
+            "value": 0.7948717948717948,
+            "k": 31,
+            "n": 39,
+            "ci95": [
+              0.6446572703687138,
+              0.8922040980208888
+            ]
+          }
+        }
+      },
+      "false_negatives": [
+        {
+          "paragraph_id": "MCD_latest_035",
+          "ticker": "MCD",
+          "human_category": "AI/tech",
+          "tfidf_status": "new",
+          "best_sim": 0.181,
+          "llm_novelty_uncertain": "True",
+          "reason": "Central risk is the company's own AI tools underperforming and creating operational, data integrity and algorithmic risks, with added AI-specific regulatory and ethics exposure beyond the prior year's brief AI mention.",
+          "text": "In addition, the AI tools we are incorporating into certain aspects of our business may not generate the intended efficiencies, may increase our exposure to risks (both known and unknown), and could a"
+        }
+      ],
+      "false_positives": []
+    },
+    "severity": {
+      "rows": 39,
+      "exact": {
+        "value": 0.6410256410256411,
+        "k": 25,
+        "n": 39,
+        "ci95": [
+          0.484178631846895,
+          0.772581153035089
+        ]
+      },
+      "within_1": {
+        "value": 0.9743589743589743,
+        "k": 38,
+        "n": 39,
+        "ci95": [
+          0.8681871352137286,
+          0.9954594139347627
+        ]
+      },
+      "confusion": {
+        "rows": "human",
+        "columns": "llm",
+        "labels": [
+          1,
+          2,
+          3
+        ],
+        "matrix": [
+          [
+            5,
+            5,
+            0
+          ],
+          [
+            3,
+            17,
+            0
+          ],
+          [
+            1,
+            5,
+            3
+          ]
+        ]
+      },
+      "llm_higher": 5,
+      "llm_lower": 9
+    },
+    "mentions_ai": {
+      "rows": 40,
+      "tp": 4,
+      "fp": 1,
+      "fn": 1,
+      "tn": 34,
+      "agreement": {
+        "value": 0.95,
+        "k": 38,
+        "n": 40,
+        "ci95": [
+          0.834958291820748,
+          0.9861796228538989
+        ]
+      },
+      "precision": {
+        "value": 0.8,
+        "k": 4,
+        "n": 5,
+        "ci95": [
+          0.3755282641185388,
+          0.9637768390302125
+        ]
+      },
+      "recall": {
+        "value": 0.8,
+        "k": 4,
+        "n": 5,
+        "ci95": [
+          0.3755282641185388,
+          0.9637768390302125
+        ]
+      }
+    },
+    "quote": {
+      "run": "test_v1_sonnet_final",
+      "value": 1.0,
+      "k": 40,
+      "n": 40,
+      "ci95": [
+        0.9123754607496077,
+        1.0
+      ]
+    },
+    "dispute_adjusted": {
+      "excluded_rows": {
+        "category": [
+          "PYPL_latest_019"
+        ],
+        "novelty": [],
+        "severity": [],
+        "mentions_ai": [
+          "MCD_latest_015"
+        ]
+      },
+      "added_after_scoring": [
+        {
+          "paragraph_id": "PYPL_latest_019",
+          "field": "category"
+        },
+        {
+          "paragraph_id": "MCD_latest_015",
+          "field": "mentions_ai"
+        }
+      ],
+      "strict": {
+        "category_accuracy": {
+          "correct": 34,
+          "n": 40,
+          "accuracy": 0.85,
+          "ci95": [
+            0.7092737396097997,
+            0.9293890829149256
+          ]
+        },
+        "novelty_precision": {
+          "value": 1.0,
+          "k": 6,
+          "n": 6,
+          "ci95": [
+            0.6096569663469354,
+            0.9999999999999999
+          ]
+        },
+        "novelty_recall": {
+          "value": 0.8571428571428571,
+          "k": 6,
+          "n": 7,
+          "ci95": [
+            0.48686549668097007,
+            0.9743210440510253
+          ]
+        },
+        "severity_exact": {
+          "value": 0.6410256410256411,
+          "k": 25,
+          "n": 39,
+          "ci95": [
+            0.484178631846895,
+            0.772581153035089
+          ]
+        },
+        "mentions_ai_agreement": {
+          "value": 0.95,
+          "k": 38,
+          "n": 40,
+          "ci95": [
+            0.834958291820748,
+            0.9861796228538989
+          ]
+        }
+      },
+      "adjusted": {
+        "category_accuracy": {
+          "value": 0.8717948717948718,
+          "k": 34,
+          "n": 39,
+          "ci95": [
+            0.7329395096236953,
+            0.9439726505197168
+          ]
+        },
+        "novelty_precision": {
+          "value": 1.0,
+          "k": 6,
+          "n": 6,
+          "ci95": [
+            0.6096569663469354,
+            0.9999999999999999
+          ]
+        },
+        "novelty_recall": {
+          "value": 0.8571428571428571,
+          "k": 6,
+          "n": 7,
+          "ci95": [
+            0.48686549668097007,
+            0.9743210440510253
+          ]
+        },
+        "severity_exact": {
+          "value": 0.6410256410256411,
+          "k": 25,
+          "n": 39,
+          "ci95": [
+            0.484178631846895,
+            0.772581153035089
+          ]
+        },
+        "mentions_ai_agreement": {
+          "value": 0.9743589743589743,
+          "k": 38,
+          "n": 39,
+          "ci95": [
+            0.8681871352137286,
+            0.9954594139347627
+          ]
+        }
+      }
+    },
+    "stability": {
+      "runs": [
+        "test_v1_sonnet_final",
+        "test_v1_sonnet_rep2_final"
+      ],
+      "agreement": {
+        "category": {
+          "value": 0.925,
+          "k": 37,
+          "n": 40,
+          "ci95": [
+            0.8013546984090248,
+            0.9741644432281419
+          ]
+        },
+        "novelty": {
+          "value": 0.975,
+          "k": 39,
+          "n": 40,
+          "ci95": [
+            0.8711834051199223,
+            0.9955732825922052
+          ]
+        },
+        "severity": {
+          "value": 0.85,
+          "k": 34,
+          "n": 40,
+          "ci95": [
+            0.7092737396097997,
+            0.9293890829149256
+          ]
+        },
+        "mentions_ai": {
+          "value": 1.0,
+          "k": 40,
+          "n": 40,
+          "ci95": [
+            0.9123754607496077,
+            1.0
+          ]
+        }
+      },
+      "rep2_novelty": {
+        "precision": {
+          "value": 1.0,
+          "k": 6,
+          "n": 6,
+          "ci95": [
+            0.6096569663469354,
+            0.9999999999999999
+          ]
+        },
+        "recall": {
+          "value": 0.8571428571428571,
+          "k": 6,
+          "n": 7,
+          "ci95": [
+            0.48686549668097007,
+            0.9743210440510253
+          ]
+        },
+        "note": "stability check only, not a score"
+      }
+    }
+  },
+  "failures": [
+    {
+      "paragraph_id": "PYPL_latest_019",
+      "ticker": "PYPL",
+      "field": "category",
+      "human_value": "credit/liquidity",
+      "llm_value": "regulation/legal",
+      "verdict": "human_label_debatable",
+      "why": "Text is entirely about crypto regulation, licensing (NYDFS) and the GENIUS Act, which is regulation/legal by definition; nothing in it concerns funding or liquidity.",
+      "evidence": "Our customer cryptocurrency offerings may subject us to additional regulations, licensing requirements, or other obligations or liabilities.",
+      "text": "Our customer cryptocurrency offerings may subject us to additional regulations, licensing requirements, or other obligations or liabilities. Within the U.S., we are regulated by the New York State Department of Financial Services as a virtual currency business, which does not permit us to engage in "
+    },
+    {
+      "paragraph_id": "WEN_latest_014",
+      "ticker": "WEN",
+      "field": "category",
+      "human_value": "regulation/legal",
+      "llm_value": "competition",
+      "verdict": "genuinely_ambiguous",
+      "why": "Text names 'consumer or regulatory concerns or litigation' as joint causes of lower demand; the human chose the regulatory cause and the LLM the consumer-preference cause (competition), and the codebook's dominant-risk rule doesn't settle it.",
+      "evidence": "The Wendy’s system may also be adversely impacted by consumer or regulatory concerns or litigation regarding the nutritional aspects of the products we sell, the ingredients in our products or the cooking processes or packaging used in our restaurants.",
+      "text": "The Wendy’s system may also be adversely impacted by consumer or regulatory concerns or litigation regarding the nutritional aspects of the products we sell, the ingredients in our products or the cooking processes or packaging used in our restaurants.  These or similar concerns could result in less"
+    },
+    {
+      "paragraph_id": "MCD_latest_015",
+      "ticker": "MCD",
+      "field": "mentions_ai",
+      "human_value": "FALSE",
+      "llm_value": "TRUE",
+      "verdict": "human_label_debatable",
+      "why": "Text explicitly says 'artificial intelligence (AI)-driven tools'; codebook 6 counts any explicit AI mention as true.",
+      "evidence": "Moreover, rapid technological developments, including artificial intelligence (AI)-driven tools, may increase our exposure to existing intellectual property risks, including theft or unlicensed use, intellectual property disputes and enforcement challenges.",
+      "text": "We cannot ensure that franchisees and other third parties who hold licenses to our intellectual property will not take actions that adversely affect the value of our intellectual property.  Moreover, rapid technological developments, including artificial intelligence (AI)-driven tools, may increase "
+    },
+    {
+      "paragraph_id": "MCD_latest_035",
+      "ticker": "MCD",
+      "field": "novelty (stability)",
+      "human_value": "genuinely_new",
+      "llm_value": "scored run: genuinely_new; repeat run: reworded (both novelty_uncertain = true)",
+      "verdict": "genuinely_ambiguous",
+      "why": "There is a brief sentence about AI but it's not the whole risk. The main risk in the latest year is AI, whle the main risk in the prior year is not.",
+      "evidence": "In addition, the artificial intelligence tools we are incorporating into certain aspects of our business may not generate the intended efficiencies and may impact our business results. → current: In addition, the AI tools we are incorporating into certain aspects of our business may not generate the intended efficiencies, may increase our exposure to risks (both known and unknown), and could adversely impact our business results.",
+      "text": "In addition, the AI tools we are incorporating into certain aspects of our business may not generate the intended efficiencies, may increase our exposure to risks (both known and unknown), and could adversely impact our business results. These risks include potential operational disruptions, data in"
+    },
+    {
+      "paragraph_id": "QSR_latest_017",
+      "ticker": "QSR",
+      "field": "severity",
+      "human_value": "3",
+      "llm_value": "2",
+      "verdict": "llm_wrong",
+      "why": "Names the Carrols Acquisition and quantifies its effect (about 5% of restaurants now company-operated), meeting codebook 5's tests for severity 3.",
+      "evidence": "As of the date of this Annual Report on Form 10-K, we directly operated approximately 5% of our total restaurants, primarily as a result of the Carrols Acquisition in May 2024.",
+      "text": "Our acquisition and operating of material portfolios of Company restaurants exposes us to additional risk and could adversely affect our operating margins and cash flows.\n\nWe may from time to time acquire, directly operate, and refranchise portfolios of certain system restaurants to pursue strategic"
+    }
+  ],
+  "rule_changes": {
+    "count": 1,
+    "rows": [
+      "MCD_latest_035"
+    ]
+  }
+}

@@ -7,3 +7,4 @@ anthropic
 plotly
 openpyxl
 python-dotenv
+matplotlib

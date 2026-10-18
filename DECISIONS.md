@@ -46,3 +46,14 @@ A running log of methodology decisions for the Risk-Factor Change Tracker. Each 
 - **2026-10-15** — Prompt v2 (severity calibration line) made no measurable difference on dev (severity 11/20 in both; row-level changes looked like run-to-run noise). Reverted to v1, the simpler prompt that adds nothing beyond the codebook. Prompt frozen at v1 from here.
 - **2026-10-15** — The test set is labelled twice. Only the first run (test_v1_sonnet) is scored; the second (test_v1_sonnet_rep2) is used only to measure run-to-run stability.
 - **2026-10-15** — MAX_TOKENS raised from 800 to 1500 after EBAY_latest_010 hit the output limit twice (very long supporting sentence). Setting change only; prompt v1 unchanged (same prompt_hash). Only that row was re-run.
+
+## Evaluation
+
+- **2026-10-18** — The codebook rule "if uncertain about novelty, label reworded" is enforced in code after labelling (apply_rules.py), because the model sometimes returned genuinely_new while flagging itself uncertain. Raw outputs are kept; published counts and the headline evaluation use the rule-applied version.
+- **2026-10-18** — The headline evaluation is strict, against the frozen gold labels. Test rows judged human_label_debatable during error review were added to gold_disputes.csv after scoring; they affect only the secondary dispute-adjusted numbers.
+
+## Sentence-level additions
+
+- **2026-10-18** — Blind spot found: paragraph-level TF-IDF similarity hides sentences inserted into otherwise unchanged paragraphs. "Kept" paragraphs (similarity >= 0.80) were never sent to the LLM. A tariff sanity check found tariff language rising sharply while no genuinely new tariff paragraphs were labelled. Example: UNP_latest_012 (kept, 0.821) appended five tariff sentences, including that tariffs adversely affected demand and costs in fiscal 2025.
+- **2026-10-18** — Method: every latest-year sentence is compared with every prior-year sentence of the same ticker (rapidfuzz ratio, lowercased). A sentence is "added" if its best match is below 85. Threshold checks showed 85 cannot fully separate rewording from additions, so theme counts use a stricter rule: an added sentence counts as a new tariff (or AI) mention only if its best prior match contains no tariff (or AI) term.
+- **2026-10-18** — Reporting: paragraph-level novelty (LLM) and sentence-level theme additions are reported side by side as complementary measures. The sentence-level measure uses no LLM and has no gold-set evaluation; it is validated by manual spot-checks only.
