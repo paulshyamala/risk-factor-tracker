@@ -8,3 +8,5 @@ plotly
 openpyxl
 python-dotenv
 matplotlib
+weasyprint
+markdown

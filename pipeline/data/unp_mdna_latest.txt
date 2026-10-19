@@ -1,0 +1,500 @@
+Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations
+
+The following discussion should be read in conjunction with the Consolidated Financial Statements and applicable notes to the Financial Statements and Supplementary Data, Item 8, and other information in this report, including Risk Factors set forth in Item 1A and Critical Accounting Estimates and Cautionary Information at the end of this Item 7. The following section generally discusses 2025 and 2024 items and year-to-year comparisons between 2025 and 2024. Discussions of 2023 items and year-to-year comparisons between 2024 and 2023 that are not included in this Form 10-K can be found in “Management’s Discussion and Analysis of Financial Condition and Results of Operations” in Part II, Item 7, of the Company’s Annual Report on Form 10-K for the fiscal year ended December 31, 2024.
+
+The Railroad, along with its subsidiaries and rail affiliates, is our one reportable operating segment. Although we provide and analyze revenues by commodity group, we treat the financial results of the Railroad as one segment due to the integrated nature of our rail network.
+
+EXECUTIVE SUMMARY
+
+2025 Results
+
+•Safety – Building on the foundation and commitment to our safety culture, 2025 furthered our progress towards world-class safety. With a focus on four central pillars – Injury Prevention, Leverage Technology, Situational Awareness Testing, and Peer-to-Peer Engagement, we are cultivating a safety-focused mindset so all of our employees return home safely each day.
+
+Injury Prevention efforts focus on specific, critical tasks where any form of non-compliance can result in a serious injury. Training is vital to teach our employees how to safely execute those critical tasks in order to reduce the risk of injury or derailment.
+
+By Leveraging Technology, we seek to eliminate or automate activities with the most risk. Over 7,000 wayside detectors monitor freight cars and locomotives in real time, generating 72 million data points daily to proactively identify and mitigate risks. We are building safer trains with our proprietary Physics Train Builder technology, which allows us to evaluate train and route characteristics to enable proactive intervention by our Operating Practices Command Center to prevent derailments. We utilize our autonomous geometry car fleet to inspect 500,000 miles of track annually. This technology and the data it provides enable us to direct investments and resources in the right place, helping to significantly reduce track-caused derailments over the last 10 years.
+
+Situational Awareness Testing (a program we call COMMIT) is our program that observes, tests, and coaches our employees to promote understanding and compliance with our work rules. COMMIT goes beyond traditional classroom learning, with an emphasis on in-the-field training with employees actively running the railroad.
+
+Peer-to-Peer Engagement drives employee ownership through engagement with our safety programs. Our culture embodies a personal commitment to do our jobs with a passion for safety so everyone goes home safe. Employees are encouraged to speak up if they see unsafe behaviors.
+
+The focus on these four pillars continues to drive improvement, resulting in our best-ever personal injury and derailment incident rate annual safety results. Compared to 2024, our personal injury rate (the number of reportable injuries for every 200,000 employee-hours worked) of 0.68 decreased 24% and our derailment incident rate (the number of reportable derailment incidents per million train miles) of 1.75 improved 19%.
+
+•Service – Bolstered by sequentially improving freight car velocity and terminal dwell, our network remained fluid throughout 2025 as we achieved best-ever results for many of our operating metrics. For the year ended December 31, 2025, freight car velocity increased to 225 daily miles per car, an improvement of 8%, while terminal dwell declined 8% during the same period compared to 2024. Both service performance index measures improved to essentially three-year performance bests as we achieved intermodal service performance of 99% and manifest service performance of 100% for the full year 2025.
+
+•Operational Excellence – We effectively adapted to shifts in business traffic mix throughout 2025 as we handled elevated international intermodal shipments in the first half of the year coupled with strong bulk shipments throughout the year. As customer demand changed, we efficiently modified our resources to match demand while improving our service performance. 
+
+•Financial results – Core pricing gains, strong productivity, and 1% volume growth positively impacted our financial results and offset the impact of inflation, negative business mix, and acquisition-related costs. Operating income of $9.8 billion increased 1% from 2024, and our operating ratio improved 10 basis points to 59.8% in 2025. Net income of $7.1 billion translated into earnings of $11.98 per diluted share, improving 8% from the prior year.
+
+We generated $9.3 billion of cash provided by operating activities, yielded free cash flow of $2.3 billion after reductions of $3.8 billion for cash used in investing activities and $3.2 billion in dividends paid. Cash provided by operating activities was positively impacted by $0.3 billion due to the enactment of H.R.1 and the reinstatement of 100% bonus depreciation. 
+
+Free cash flow is defined as cash provided by operating activities less cash used in investing activities and dividends paid. Free cash flow is not considered a financial measure under GAAP by SEC Regulation G and Item 10 of SEC Regulation S-K and may not be defined and calculated by other companies in the same manner. We believe free cash flow is important to management and investors in evaluating our financial performance and measures our ability to generate cash without additional external financing. Free cash flow should be considered in addition to, rather than as a substitute for, cash provided by operating activities. The following table reconciles cash provided by operating activities (GAAP measure) to free cash flow (non-GAAP measure):
+
+Millions  2025  2024  2023
+Cash provided by operating activities  $  9,290  $  9,346  $  8,379
+Cash used in investing activities  (3,762)  (3,325)  (3,667)
+Dividends paid  (3,236)  (3,213)  (3,173)
+Free cash flow  $  2,292  $  2,808  $  1,539
+
+2026 Outlook
+
+•Safety – We are committed to our goal of world-class safety and are continuously identifying areas in which we can enhance safety. In 2026, our focus remains on our four pillars of safety. Critical safety tasks will be reinforced. Training to engage both new and experienced employees is fundamental to our success. We will continue using a comprehensive safety management approach utilizing technology, hazard identification and risk assessments, employee engagement, training, quality control, and targeted capital investments. In addition, we will continue to collect and utilize data with the goal of identifying and mitigating exposure to risk, detect rail defects, improve or close grade crossings, and educate the public and law enforcement agencies about crossing safety through a combination of our own programs (including risk assessment strategies), industry programs, and local community activities across the network. Our culture is ingrained with a safety-first mindset, critical to our success, both operationally and financially, and our focus will not deviate in 2026.
+
+•Service – We are committed to delivering the service we sold to our customers. As we meet with customers to agree on their specific needs and outcomes, we will continue to measure ourselves against the best service we provided them over the last three years and use that as a guide for meeting their expectations. We will engage with customers by being the first to act on new opportunities, investing to grow, and finding innovative solutions to win together.
+
+•Operational Excellence – To provide our customers with the service we sold, we must run a fluid network. Network fluidity enables us to effectively utilize all our resources and provides the capacity to respond in an ever-changing environment. Terminal dwell and freight car velocity are key indicators of that fluidity. We will continue to transform our railroad using technology and automation to further improve our service product, improve resource utilization, and lower our overall cost structure.
+
+•Business volumes – We expect macroeconomic uncertainties to persist in 2026, and those uncertainties could have a material impact on our 2026 financial and operating results. 2026 industrial production is forecasted to be essentially flat with 2025, coupled with reduced expectations for housing starts and light vehicle sales. Lower international intermodal business, largely due to the resumption of historical trade patterns, is expected to negatively impact volumes. However, higher coal demand, from elevated natural gas prices and increased coal-fired electricity production, is expected to positively impact volumes. In addition, other factors, such as geopolitical instability or changes in trade policies that may affect economic activity and demand for rail transportation; natural gas prices, weather conditions, and demand for other energy sources may impact the coal market; crude oil prices and spreads may drive demand for petroleum products and drilling materials; available truck capacity could impact our intermodal business; and international trade agreements could promote or hinder trade. Fuel prices may continue to fluctuate in the current economic environment. As prices fluctuate, there will be a timing impact on earnings, as our fuel surcharge programs trail increases or decreases in fuel prices by approximately two months. Regardless of macroeconomic or other external factors, we remain focused on operating a safe, fluid, and efficient rail network while delivering the service we sold our customers and capitalizing on new business opportunities. 
+
+RESULTS OF OPERATIONS
+
+Operating revenues
+
+Millions  2025  2024  2023  % Change 2025 v 2024  % Change 2024 v 2023
+Freight revenues  $  23,220  $  22,811  $  22,571  2%  1%
+Other subsidiary revenues  718  788  872  (9)  (10)
+Accessorial revenues  475  554  584  (14)  (5)
+Other  97  97  92  -  5
+Total  $  24,510  $  24,250  $  24,119  1%  1%
+
+We generate freight revenues by transporting products from our three commodity groups. Freight revenues vary with volumes (carloads) and average revenue per car (ARC). Changes in price, traffic mix, and fuel surcharges drive ARC. Customer incentives, which are primarily provided for shipping to/from specific locations or based on cumulative volumes, are recorded as a reduction to operating revenues. Customer incentives that include variable consideration based on cumulative volumes are estimated using the expected value method, which is based on available historical, current, and forecasted volumes, and recognized as the related performance obligation is satisfied. We recognize freight revenues over time as shipments move from origin to destination. The allocation of revenues between reporting periods is based on the relative transit time in each reporting period with expenses recognized as incurred.
+
+Other subsidiary revenues (primarily logistics and commuter rail operations) are generally recognized over time as shipments move from origin to destination. The allocation of revenues between reporting periods is based on the relative transit time in each reporting period with expenses recognized as incurred. Accessorial revenues are recognized at a point in time as performance obligations are satisfied.
+
+Freight revenues of $23.2 billion increased 2% from 2024 driven by core pricing gains and a 1% increase in volumes, partially offset by traffic mix (for example, a relative increase in coal and rock shipments, which have a lower ARC, combined with a decline in lumber shipments, which have a higher ARC) and lower fuel surcharge revenues. Volume increases were primarily driven by coal, grain and grain products, industrial chemicals and plastics, and rock shipments, partially offset by weaker demand for automotive and energy and specialized markets shipments.
+
+Our fuel surcharge programs generated freight revenues of $2.3 billion and $2.6 billion in 2025 and 2024, respectively. Fuel surcharge revenues in 2025 decreased $218 million due to lower fuel prices and the lag impact of fluctuating fuel prices (it can generally take up to two months for changing fuel prices to affect fuel surcharge recoveries), partially offset by higher volumes.
+
+In 2025, other subsidiary revenues decreased compared to 2024 due to the transfer of our commuter operations to Metra. Accessorial revenues decreased in 2025 compared to 2024 as a result of lower intermodal container revenues due to an intermodal equipment sale and a one-time contract settlement, both of which occurred in 2024, partially offset by higher intermodal accessorial revenues.
+
+30
+
+
+The following tables summarize the year-over-year changes in freight revenues, revenue carloads, and ARC by commodity type:
+
+Freight revenues  2025  2024  2023  % Change 2025 v 2024 % Change 2024 v 2023
+Millions
+Grain & grain products  $  3,926  $  3,828  $  3,644  3 % 5%
+Fertilizer  856  811  757  6 7
+Food & refrigerated  1,018  1,085  1,041  (6) 4
+Coal & renewables  1,786  1,483  1,916  20 (23)
+Bulk  7,586  7,207  7,358  5 (2)
+Industrial chemicals & plastics  2,512  2,345  2,176  7 8
+Metals & minerals  2,193  2,081  2,194  5 (5)
+Forest products  1,290  1,326  1,347  (3) (2)
+Energy & specialized markets  2,609  2,688  2,521  (3) 7
+Industrial  8,604  8,440  8,238  2 2
+Automotive  2,398  2,452  2,421  (2) 1
+Intermodal  4,632  4,712  4,554  (2) 3
+Premium  7,030  7,164  6,975  (2) 3
+Total  $  23,220  $  22,811  $  22,571  2 % 1%
+
+Revenue carloads  2025  2024  2023  % Change 2025 v 2024 % Change 2024 v 2023
+Thousands
+Grain & grain products  880  850  798  4 % 7%
+Fertilizer  216  213  191  1 12
+Food & refrigerated  163  177  175  (8) 1
+Coal & renewables  797  702  867  14 (19)
+Bulk  2,056  1,942  2,031  6 (4)
+Industrial chemicals & plastics  704  672  645  5 4
+Metals & minerals  747  719  793  4 (9)
+Forest products  203  213  213  (5) -
+Energy & specialized markets  587  607  582  (3) 4
+Industrial  2,241  2,211  2,233  1 (1)
+Automotive  793  824  820  (4) -
+Intermodal [a]  3,357  3,357  3,028  - 11
+Premium  4,150  4,181  3,848  (1) 9
+Total  8,447  8,334  8,112  1 % 3%
+
+Average revenue per car  2025  2024  2023  % Change 2025 v 2024 % Change 2024 v 2023
+Grain & grain products  $4,461  $4,505  $4,567  (1) % (1)%
+Fertilizer  3,970  3,809  3,962  4 (4)
+Food & refrigerated  6,233  6,104  5,929  2 3
+Coal & renewables  2,241  2,113  2,211  6 (4)
+Bulk  3,690  3,710  3,623  (1) 2
+Industrial chemicals & plastics  3,568  3,493  3,374  2 4
+Metals & minerals  2,935  2,893  2,765  1 5
+Forest products  6,369  6,229  6,310  2 (1)
+Energy & specialized markets  4,446  4,426  4,335  - 2
+Industrial  3,840  3,818  3,689  1 3
+Automotive  3,024  2,976  2,955  2 1
+Intermodal [a]  1,380  1,404  1,504  (2) (7)
+Premium  1,694  1,714  1,813  (1) (5)
+Average  $2,749  $2,737  $2,782  - % (2)%
+
+[a]For intermodal shipments, each container or trailer equals one carload.
+
+31
+
+
+Bulk – Bulk includes shipments of grain and grain products, fertilizer, food and refrigerated, and coal and renewables. Freight revenues from bulk shipments increased in 2025 compared to 2024 due to 6% higher volumes and core pricing gains, partially offset by negative mix, from increased coal shipments, and lower fuel surcharge revenues. Bulk volume growth compared to 2024 was driven by increased use of coal in electricity generation due to higher natural gas prices coupled with business wins, in addition to, strength in export grain to Mexico and soybean crush production. These volume gains were partially offset by reduced food and beverage shipments.
+
+Industrial – Industrial includes shipments of industrial chemicals and plastics, metals and minerals, forest products, and energy and specialized markets. Freight revenues from industrial shipments increased in 2025 versus 2024 due to core pricing gains and higher volumes, partially offset by a negative mix of traffic, from increased rock and lower lumber shipments, and lower fuel surcharge revenues. Volumes increased 1% compared to 2024 due to stronger demand for rock, plastics, and industrial chemicals shipments partially offset by lower iron ore (as a result of tariff uncertainties), petroleum, and lumber carloads.
+
+Premium – Premium includes shipments of finished automobiles, automotive parts, and merchandise in intermodal containers, both domestic and international. Freight revenues from premium shipments decreased in 2025 driven by lower fuel surcharge revenues, negative business mix from reduced automotive shipments, and lower volumes, partially offset by core pricing gains. The heavy demand from increased U.S. West Coast imports continued into the first half of 2025 due to uncertainty related to trade policies, resulting in first half international intermodal volumes up 17%. Traffic shifted back to historical trade patterns in the second half of 2025 and international intermodal volumes decreased 24% compared to the second half of 2024, resulting in 6% lower international intermodal volumes for 2025. Strong domestic intermodal volumes helped to offset the decline in international shipments as a result of business development wins. Automotive shipments were down 4% year-over-year due to tariff uncertainties in the first half of 2025 and reduced manufacturer production from softer consumer demand.
+
+2025 Bulk Carloads
+
+2025 Industrial Carloads
+
+2025 Premium Carloads
+
+Mexico business – Freight revenues from each of our commodity groups includes revenues from shipments to and from Mexico, which equated to $2.9 billion in 2025, down 1% compared to 2024, driven by a 2% reduction in ARC partially offset by 2% higher volumes. Compared to 2024, intermodal and grain and grain products volumes increased and were partially offset by lower auto parts and finished vehicle shipments.
+
+Operating expenses
+
+Millions  2025  2024  2023  % Change 2025 v 2024  % Change 2024 v 2023
+Compensation and benefits  $  4,897  $  4,899  $  4,818  -%  2%
+Purchased services and materials  2,626  2,520  2,616  4  (4)
+Depreciation  2,465  2,398  2,318  3  3
+Fuel  2,390  2,474  2,891  (3)  (14)
+Equipment and other rents  912  920  947  (1)  (3)
+Other  1,374  1,326  1,447  4  (8)
+Total  $  14,664  $  14,537  $  15,037  1%  (3)%
+
+32
+
+
+Operating expenses increased $127 million, or 1%, in 2025 compared to 2024 driven by inflation, volume-related costs, acquisition-related expenses, and higher depreciation, partially offset by productivity and lower fuel prices. In addition, the year-over-year comparison was negatively impacted by a gain on the sale of intermodal equipment in 2024 and higher crew staffing agreement ratification charges in 2025 as we reached agreements in both years.
+
+2025 Operating Expenses
+
+Compensation and benefits – Compensation and benefits include wages, payroll taxes, health and welfare costs, pension costs, and incentive costs. In 2025, expenses were essentially flat compared to 2024 due to wage inflation, increased volumes, higher incentive compensation, and increased crew needs associated with labor agreements, partially offset by 3% lower employee levels. Active train, engine, and yard (TE&Y) force levels decreased 3% in 2025 on 1% increased carloads due to improved network fluidity.
+
+Purchased services and materials – Expense for purchased services and materials includes the costs of services purchased from outside contractors and other service providers (including equipment maintenance and contract expenses incurred by our subsidiaries for external transportation services); materials used to maintain the Railroad’s lines, structures, and equipment; costs of operating facilities jointly used by UPRR and other railroads; transportation and lodging for train crew employees; trucking and contracting costs for intermodal containers; leased automobile maintenance expenses; and tools and supplies. Purchased services and materials increased 4% in 2025 compared to 2024 driven by inflation (including tariff-related material expenses), acquisition-related expenses, and higher locomotive maintenance expense was partially offset by productivity and lower expenses incurred by our subsidiaries. The comparison was also negatively impacted by a favorable contract settlement in 2024. 
+
+Fuel – Fuel includes locomotive fuel and gasoline for highway and non-highway vehicles and heavy equipment. Fuel expense decreased compared to 2024 due to a 6% decrease in locomotive diesel fuel prices, declining from an average of $2.64 per gallon (including taxes and transportation costs) in 2024 to $2.49 per gallon in 2025, resulting in a $138 million decrease in expense (excluding any impact from increased volumes year-over-year) and a 1% improvement to the fuel consumption rate in 2024 (computed as gallons of fuel consumed divided by gross ton-miles). Gross-ton miles increased 3% in 2025 and partially offset the impact of lower fuel prices and improved fuel consumption rate. 
+
+Depreciation – The majority of depreciation relates to road property, including rail, ties, ballast, and other track material. Depreciation expense was up 3% in 2025 compared to 2024 due to a higher depreciable asset base.
+
+Equipment and other rents – Equipment and other rents expense primarily includes rental expense that the Railroad pays for freight cars owned by other railroads or private companies; freight car, intermodal, and locomotive leases; and office and other rent expenses, offset by equity income from certain equity method investments. Equipment and other rents expense decreased 1% compared to 2024 due to lower operating equipment lease expense, which included favorable contract settlements in 2025, and reduced car hire expense as favorable haul length and improved cycle times partially offset inflation and costs associated with increased demand in commodities utilizing freight cars owned by others. Higher other rental expense and lower equity income partially offset the favorable expense drivers. 
+
+Other – Other expenses include property taxes; freight, equipment, and property damage; utilities; insurance; personal injury; environmental; employee travel; telephone and cellular; computer software; bad debt; and other general expenses. Other expenses increased 4% in 2025 compared to 2024 driven by the negative comparison from a 2024 gain on the sale of intermodal equipment, in addition to, higher personal injury costs, and property taxes, partially offset by lower environmental and freight loss and damage casualty costs.
+
+33
+
+
+Non-operating items
+
+Millions  2025  2024  2023  % Change 2025 v 2024  % Change 2024 v 2023
+Other income, net  $  629  $  350  $  491  80%  (29)%
+Interest expense  (1,309)  (1,269)  (1,340)  3  (5)
+Income tax expense  $  (2,028)  $  (2,047)  $  (1,854)  (1)%  10%
+
+Other income, net – Other income increased $279 million in 2025 compared to 2024 driven by $295 million in higher real estate income, including $250 million in industrial park land sales. The higher real estate income was partially offset by interest received in 2024 from the IRS on refund claims. See Note 6 to the Financial Statements and Supplementary Data, Item 8, for additional detail.
+
+Interest expense – Interest expense increased 3% in 2025 compared to 2024 due to an increased weighted-average debt level of $32.1 billion in 2025 from $31.6 billion in 2024. In addition, the effective interest rate of 4.1% in 2025 increased from 4.0% in 2024.
+
+Income tax expense – Income tax expense decreased in 2025 compared to 2024. While pre-tax income was higher in 2025, the increase was more than offset by a $115 million reduction in deferred tax expense resulting from newly enacted Kansas legislation, along with the favorable impact of purchased tax credits during the year. In 2024, the states of Louisiana and Arkansas enacted legislation to reduce their corporate income tax rates for future years resulting in a $34 million reduction of our deferred tax expense. Our effective tax rates for 2025 and 2024 were 22.1% and 23.3%, respectively.
+
+OTHER OPERATING/PERFORMANCE AND FINANCIAL STATISTICS
+
+We report a number of key performance measures weekly to the STB. We provide these on our website at https://investor.unionpacific.com/key-performance-metrics.
+
+Operating/performance statistics
+
+Management continuously monitors these key operating metrics to evaluate our operational efficiency in striving to deliver the service product we sold to our customers.
+
+Railroad performance measures are included in the table below:
+
+2025  2024  2023  % Change 2025 v 2024  % Change 2024 v 2023
+Gross ton-miles (GTMs) (billions)  873.6  847.4  837.5  3  %  1  %
+Revenue ton-miles (billions)  426.9  409.7  413.3  4  (1)
+Freight car velocity (daily miles per car)  225  208  204  8  2
+Average train speed (miles per hour) [a]  24.3  23.6  24.2  3  (2)
+Average terminal dwell time (hours) [a]  20.9  22.6  23.4  (8)  (3)
+Locomotive productivity (GTMs per horsepower day)  139  135  129  3  5
+Train length (feet)  9,678  9,469  9,356  2  1
+Intermodal service performance index (%)  99  90  88  9  pts  2  pts
+Manifest service performance index (%)  100  89  85  11  pts  4  pts
+Workforce productivity (car miles per employee)  1,132  1,062  1,000  7  6
+Total employees (average)  29,287  30,336  31,490  (3)  (4)
+Operating ratio (%)  59.8  59.9  62.3  (0.1)  pts  (2.4)  pts
+
+[a]As reported to the STB.
+
+Gross and revenue ton-miles – Gross ton-miles are calculated by multiplying the weight of loaded and empty freight cars by the number of miles hauled. Revenue ton-miles are calculated by multiplying the weight of freight by the number of tariff miles. In 2025, gross ton-miles increased 3% and revenue ton-miles increased 4% on 1% higher carloadings year-over-year. Changes in commodity mix drove the year-over-year variances between gross ton-miles, revenue ton-miles, and carloads due to higher coal shipments, which are heavier.
+
+34
+
+
+Freight car velocity – Freight car velocity measures the average daily miles per car on our network. The two key drivers of this metric are the speed of the train between terminals (average train speed) and the time a rail car spends at the terminals (average terminal dwell time). Compared to 2024, freight car velocity increased 8% driven by record terminal dwell, which also improved 8%, and 3% higher average train speeds. 
+
+Locomotive productivity – Locomotive productivity is gross ton-miles per average daily locomotive horsepower. Locomotive productivity improved 3% in 2025 compared to 2024 driven by improved network fluidity and asset utilization.
+
+Train length – Train length is the average maximum train length on a route measured in feet. Our train length increased 2% compared to 2024 due to train length improvement initiatives and increases in coal train length, coinciding with increased shipments.
+
+Service performance index (SPI) – SPI is a ratio of the service customers are currently receiving relative to the best monthly performance over the last three years. Measuring our performance relative to a historical benchmark demonstrates our focus on continuously improving service for our customers, and we believe it is a better indicator of service performance than the previously disclosed trip plan compliance. SPI does not replace the service commitments we have contractually agreed to with a small number of customers. SPI is calculated for intermodal and manifest products. Intermodal SPI improved 9 points as we adjusted to shifting international intermodal customer demand during 2025. Manifest SPI improved 11 points in 2025 compared to 2024 while handling more volume.
+
+Workforce productivity – Workforce productivity is average daily car miles per employee. Workforce productivity improved 7% in 2025 as average daily car miles increased 3% while employees decreased 3% compared to 2024. We adequately aligned our active TE&Y workforce to support carload demand while maintaining an adequate training pipeline to provide a capacity buffer to enable responsiveness in an ever-changing demand and operating environment.
+
+Operating ratio – Operating ratio is our operating expenses reflected as a percentage of operating revenues. Our operating ratio of 59.8% improved 0.1 points compared to 2024 driven by core pricing gains and productivity initiatives, partially offset by the impact of negative business mix, inflation, and acquisition-related expenses. In addition, operating ratio year-over-year comparison was negatively impacted by 2024 contract settlements, a 2024 gain on the sale of intermodal equipment, and higher labor agreement ratification charges in 2025.
+
+Return on average common shareholders’ equity
+
+Millions, except percentages  2025  2024  2023
+Net income  $7,138  $6,747  $6,379
+Average equity  $17,679  $15,839  $13,476
+Return on average common shareholders' equity  40.4%  42.6%  47.3%
+
+Return on invested capital as adjusted (ROIC)
+
+Millions, except percentages  2025  2024  2023
+Net income  $  7,138  $  6,747  $  6,379
+Interest expense  1,309  1,269  1,340
+Interest on average operating lease liabilities  46  55  58
+Taxes on interest  (299)  (308)  (315)
+Net operating profit after taxes as adjusted  $  8,194  $  7,763  $  7,462
+Average equity  $  17,679  $  15,839  $  13,476
+Average debt  31,503  31,886  32,953
+Average operating lease liabilities  1,140  1,436  1,616
+Average invested capital as adjusted  $  50,322  $  49,161  $  48,045
+Return on invested capital as adjusted  16.3  %  15.8  %  15.5  %
+
+ROIC is considered a non-GAAP financial measure by SEC Regulation G and Item 10 of SEC Regulation S-K and may not be defined and calculated by other companies in the same manner. We believe this measure is important to management and investors in evaluating the efficiency and effectiveness of our long-term capital investments. In addition, we currently use ROIC as a performance criterion in determining certain elements of equity compensation for our executives. ROIC should be considered in addition to, rather than as a substitute for, other information provided in accordance with GAAP. The most comparable GAAP measure is return on average common shareholders’ equity. The tables above provide a reconciliation from return on average common shareholders’ equity to ROIC. At December 31, 2025, 2024, and 2023, the incremental borrowing rate on operating leases was 4.0%, 3.8%, and 3.6%, respectively.
+
+35
+
+
+Debt / net income
+
+Millions, except ratios  2025  2024  2023
+Debt  $31,814  $31,192  $32,579
+Net income  $7,138  $6,747  $6,379
+Debt / net income  4.5  4.6  5.1
+
+Adjusted debt / adjusted EBITDA
+
+Millions, except ratios  2025  2024  2023
+Net income  $  7,138  $  6,747  $  6,379
+Add:
+Income tax expense  2,028  2,047  1,854
+Depreciation  2,465  2,398  2,318
+Interest expense  1,309  1,269  1,340
+EBITDA  $  12,940  $  12,461  $  11,891
+Adjustments:
+Other income, net  (629)  (350)  (491)
+Interest on operating lease liabilities [1]  40  48  58
+Adjusted EBITDA (a)  $  12,351  $  12,159  $  11,458
+Debt  $  31,814  $  31,192  $  32,579
+Operating lease liabilities  1,008  1,271  1,600
+Adjusted debt (b)  $  32,822  $  32,463  $  34,179
+Adjusted debt / adjusted EBITDA (b/a)  2.7  2.7  3.0
+
+[1]Represents the hypothetical interest expense we would incur (using the incremental borrowing rate) if the property under our operating leases were owned or accounted for as finance leases.
+
+Adjusted debt (total debt plus operating lease liabilities plus after-tax unfunded pension and OPEB (other post-retirement benefit obligations) to adjusted EBITDA (earnings before interest, taxes, depreciation, amortization, and adjustments for other income and interest on present value of operating leases) is considered a non-GAAP financial measure by SEC Regulation G and Item 10 of SEC Regulation S-K and may not be defined and calculated by other companies in the same manner. We believe this measure is important to management and investors in evaluating the Company’s ability to sustain given debt levels (including leases) with the cash generated from operations. In addition, a comparable measure is used by rating agencies when reviewing the Company’s credit rating. Adjusted debt to adjusted EBITDA should be considered in addition to, rather than as a substitute for, other information provided in accordance with GAAP. The most comparable GAAP measure is debt to net income ratio. The tables above provide reconciliations from net income to adjusted EBITDA, debt to adjusted debt, and debt to net income to adjusted debt to adjusted EBITDA. At December 31, 2025, 2024, and 2023, the incremental borrowing rate on operating leases was 4.0%, 3.8%, and 3.6%, respectively. Pension and OPEB were funded at December 31, 2025, 2024, and 2023.
+
+LIQUIDITY AND CAPITAL RESOURCES
+
+We are continually evaluating our financial condition and liquidity. We analyze a wide range of economic scenarios and the impact on our ability to generate cash. These analyses inform our liquidity plans and activities outlined below and indicate we have sufficient borrowing capacity to sustain an extended period of lower volumes.
+
+At both December 31, 2025 and 2024, we had a working capital deficit due to upcoming debt maturities. It is not unusual for us to have a working capital deficit, and we believe it is not an indication of a lack of liquidity. We generate strong cash from operations and also maintain adequate resources, including our credit facility and, when necessary, access the capital markets to meet foreseeable cash requirements.
+
+During 2025, we generated $9.3 billion of cash provided by operating activities, paid down $1.4 billion of long-term debt, paid $3.2 billion in dividends, and repurchased shares totaling $2.7 billion. We also announced the pending acquisition of Norfolk Southern described in Note 20 to the Financial Statements and Supplementary Data, Item 8, and paused our share repurchase program. We have been, and we expect to continue to be, in compliance with our debt covenants. 
+
+36
+
+
+Our principal sources of liquidity include cash and cash equivalents, our Receivables Facility, our revolving credit facility, as well as, the availability of commercial paper and other sources of financing through the capital markets. On December 31, 2025, we had $1.3 billion of cash and cash equivalents, $250 million of short-term investments, $2.0 billion of committed credit available under our revolving credit facility, and up to $600 million undrawn on the Receivables Facility. As of December 31, 2025, none of the revolving credit facility was drawn, and we did not draw on our revolving credit facility at any time during 2025. Our access to the Receivables Facility may be reduced or restricted if our bond ratings fall to certain levels below investment grade. If our bond rating were to deteriorate, it could have an adverse impact on our liquidity. Access to commercial paper, as well as, other capital market financing is dependent on market conditions. Deterioration of our operating results or financial condition due to internal or external factors could negatively impact our ability to access capital markets as a source of liquidity. Access to liquidity through the capital markets is also dependent on our financial stability. We expect that we will continue to have access to liquidity through any or all of the following sources or activities: (a) increasing the utilization of our Receivables Facility, (b) issuing commercial paper, (c) entering into bank loans, outside of our revolving credit facility, or (iv) issuing bonds or other debt securities to public or private investors based on our assessment of the current condition of the credit markets. The Company’s $2.0 billion revolving credit facility is intended to support the issuance of commercial paper by UPC and also serves as an additional source of liquidity to fund short-term needs. The Company currently does not intend to borrow from this facility.
+
+As described in the notes to the Consolidated Financial Statements and as referenced in the table below, we have contractual obligations that may affect our financial condition. Based on our assessment of the underlying provisions and circumstances of our contractual obligations, other than the risks that we and other similarly situated companies face with respect to the condition of the capital markets (as described in Item 1A of Part II of this report), as of the date of this filing, there is no known trend, demand, commitment, event, or uncertainty that is reasonably likely to occur that would have a material adverse effect on our consolidated results of operations, financial condition, or liquidity. In addition, our commercial obligations, financings, and commitments are customary transactions that are like those of other comparable corporations, particularly within the transportation industry.
+
+The following table identifies material contractual obligations as of December 31, 2025:
+
+Payments due by December 31,
+Millions  Total  2026  2027  2028  2029  2030  After
+2030
+Debt [a]  $  59,424  $  2,724  $  2,455  $  2,402  $  2,360  $  1,816  $  47,667
+Purchase obligations [b]  2,537  817  579  434  389  302  16
+Operating leases [c]  1,125  276  238  191  123  121  176
+Other post-retirement benefits [d]  355  36  36  36  36  36  175
+Finance lease obligations [e]  114  42  37  14  21  -  -
+Total contractual obligations  $  63,555  $  3,895  $  3,345  $  3,077  $  2,929  $  2,275  $  48,034
+
+[a]Excludes finance lease obligations of $105 million as well as unamortized discount and deferred issuance costs of ($1,678) million. Includes an interest component of $26,037 million.
+
+[b]Purchase obligations include locomotive maintenance contracts; purchase commitments for ties, ballast, and rail; and agreements to purchase other goods and services.
+
+[c]Includes leases for locomotives, freight cars, other equipment, and real estate. Includes an interest component of $117 million. 
+
+[d]Includes estimated other post-retirement medical payments and payments made under the unfunded pension plan for the next ten years.
+
+[e]Represents total obligations, including an interest component of $9 million.
+
+Cash flows
+
+Millions  2025  2024  2023
+Cash provided by operating activities  $  9,290  $  9,346  $  8,379
+Cash used in investing activities  (3,762)  (3,325)  (3,667)
+Cash used in financing activities  (5,276)  (6,067)  (4,625)
+Net change in cash, cash equivalents, and restricted cash  $  252  $  (46)  $  87
+
+Operating activities
+
+Cash provided by operating activities decreased in 2025 compared to 2024 due to timing of payments to taxing authorities and purchased tax credits.
+
+37
+
+
+On July 4, 2025, H.R.1 was enacted that makes key elements of the 2017 Tax Cuts and Jobs Act permanent, including provisions for 100% bonus depreciation on qualified property and fully expensing internally developed software, which has and will continue to favorably impact our cash provided by operating activities.
+
+Cash flow conversion is defined as cash provided by operating activities less cash used in capital investments as a ratio of net income. Cash flow conversion rate is not considered a financial measure under GAAP by SEC Regulation G and Item 10 of SEC Regulation S-K and may not be defined and calculated by other companies in the same manner. We believe cash flow conversion rate is important to management and investors in evaluating our financial performance and measures our ability to generate cash without additional external financing. Cash flow conversion rate should be considered in addition to, rather than as a substitute for, cash provided by operating activities. The following table reconciles cash provided by operating activities (GAAP measure) to cash flow conversion rate (non-GAAP measure):
+
+Millions, except percentages  2025  2024  2023
+Cash provided by operating activities  $  9,290  $  9,346  $  8,379
+Cash used in capital investments  (3,791)  (3,452)  (3,606)
+Total (a)  5,499  5,894  4,773
+Net income (b)  $  7,138  $  6,747  $  6,379
+Cash flow conversion rate (a/b)  77  %  87  %  75  %
+
+Investing activities
+
+Cash used in investing activities in 2025 increased compared to 2024 primarily driven by higher capital investments and the purchase of short term investments, partially offset by higher proceeds from real estate sales.
+
+The following table details cash capital investments for the years ended December 31:
+
+Millions  2025  2024  2023
+Ties  $  523  $  503  $  565
+Rail and other track material  562  493  454
+Ballast  197  197  194
+Other [a]  705  740  691
+Total road infrastructure replacements  1,987  1,933  1,904
+Line expansion and other capacity projects  258  183  239
+Commercial facilities  359  317  425
+Total capacity and commercial facilities  617  500  664
+Locomotives and freight cars [b]  810  788  728
+Technology and other  377  231  310
+Total cash capital investments [c]  $  3,791  $  3,452  $  3,606
+
+[a]Other includes bridges and tunnels, signals, other road assets, and road work equipment.
+
+[b]Locomotives and freight cars include lease buyouts of $311 million, $143 million, and $57 million in 2025, 2024, and 2023, respectively.
+
+[c]Weather-related damages for 2025, 2024, and 2023 are immaterial.
+
+See Note 20 to the Financial Statements and Supplementary Data, Item 8, for information regarding the pending acquisition of Norfolk Southern. 
+
+Capital plan
+
+In 2026, we expect our capital plan to be approximately $3.3 billion. We plan to continue to make investments to support our growth strategy, improve the safety, resiliency, and operational efficiency of the network, harden our infrastructure, and replace older assets, including modernization of our locomotive fleet and acquiring freight cars to support replacement and growth opportunities. In addition, the plan includes investments in growth-related projects to drive more carloads to the network and enhance productivity. This includes terminal investments supporting our manifest network and intermodal ramps to efficiently handle new and existing customers, along with siding investments (extensions and new), and second mainline track projects. The capital plan may be revised if business conditions warrant or if laws or regulations affect our ability to generate sufficient returns on these investments.
+
+38
+
+
+Financing activities
+
+Cash used in financing activities decreased in 2025 compared to 2024 driven by an increase of debt issued and a decrease in debt repaid, partially offset by an increase in share repurchases.
+
+See Note 14 to the Financial Statements and Supplementary Data, Item 8, for a description of all our outstanding financing arrangements and significant new borrowings, Note 18 to the Financial Statements and Supplementary Data, Item 8, for a description of our share repurchase programs, and Note 20 to the Financial Statements and Supplementary Data, Item 8, for the pending acquisition of Norfolk Southern. 
+
+OTHER MATTERS
+
+Inflation – For capital-intensive companies, inflation significantly increases asset replacement costs for long-lived assets. As a result, assuming that we replace all operating assets at current price levels, depreciation charges (on an inflation-adjusted basis) would be substantially greater than historically reported amounts.
+
+Sensitivity analyses – The sensitivity analyses that follow illustrate the economic effect that hypothetical changes in interest and tax rates could have on our results of operations and financial condition. These hypothetical changes do not consider other factors that could impact actual results.
+
+Interest rates – At both December 31, 2025, and 2024, we did not have variable-rate debt.
+
+Market risk for fixed-rate debt is estimated as the potential increase in fair value resulting from a hypothetical 1% decrease in interest rates as of December 31, 2025, and 2024, and totals an increase of approximately $3.2 billion and $3.0 billion to the fair value of our debt at December 31, 2025, and 2024, respectively. We estimated the fair values of our fixed-rate debt by considering the impact of the hypothetical interest rates on quoted market prices and current borrowing rates.
+
+Tax rates – Our deferred tax assets and liabilities are measured based on current tax law. Future tax legislation, such as a change in the federal corporate tax rate, could have a material impact on our financial condition, results of operations, or liquidity. For example, as of December 31, 2025, a future, permanent 1% increase in our federal income tax rate would increase our deferred tax liability by approximately $550 million. Similarly, a future, permanent 1% decrease in our federal income tax rate would decrease our deferred tax liability by approximately $550 million. As of December 31, 2024, a permanent 1% increase or decrease in our federal income tax rate would have correspondingly increased or decreased our deferred tax liability by approximately $525 million, respectively.
+
+Accounting pronouncements – See Note 3 to the Financial Statements and Supplementary Data, Item 8.
+
+Asserted and unasserted claims – See Note 17 to the Financial Statements and Supplementary Data, Item 8.
+
+Indemnities – See Note 17 to the Financial Statements and Supplementary Data, Item 8.
+
+Pending Acquisition – See Note 20 to the Financial Statements and Supplementary Data, Item 8, and the Agreement and Plan of Merger dated as of July 28, 2025, by and among the Company, Ruby Merger Sub 1 Corporation, Ruby Merger Sub 2 LLC, and Norfolk Southern, which is incorporated herein by reference to Exhibit 2.1 to the Corporation’s Current Report on Form 8-K dated July 29, 2025.
+
+Climate change – Climate change could have an adverse impact on our operations and financial performance (see Risk Factors under Item 1A of this report). We utilize climate scenario analyses to better understand climate-related risks and opportunities the Company may face in the future under a range of potential scenarios. We continue to refine our approach to understand climate-related risks and are taking an iterative approach in our business planning processes as risk factors, solutions, and technology develop. However, we are unable to predict the likelihood, manner, severity, or ultimate financial impact of actual future incidents as climate scenario analysis considers a range of potential outcomes.
+
+We continue to take steps and explore opportunities to reduce our operational impact on the environment, including improving our operational fluidity to increase fuel efficiency, modernizing locomotives for improved reliability and fuel consumption, using renewable fuels, and exploring and testing low- and zero-emissions propulsion technologies. These initiatives are aligned with our strategy of Safety, Service, and Operational Excellence leading to Growth. (See further discussion in "Sustainable Future" in the Operations section in Item 1 of this report.)
+
+39
+
+
+CRITICAL ACCOUNTING ESTIMATES
+
+Our Consolidated Financial Statements have been prepared in accordance with GAAP. The preparation of these financial statements requires estimation and judgment that affect the reported amounts of revenues, expenses, assets, and liabilities. We base our estimates on historical experience and on various other assumptions that we believe are reasonable under the circumstances. The results form the basis for making judgments about the carrying values of assets and liabilities that are not readily apparent from other sources. The following critical accounting estimates are a subset of our significant accounting policies described in Note 2 to the Financial Statements and Supplementary Data, Item 8. These critical accounting estimates affect significant areas of our financial statements and involve judgment and estimates. If these estimates differ significantly from actual results, the impact on our Consolidated Financial Statements may be material.
+
+Personal injury – See Note 17 to the Financial Statements and Supplementary Data, Item 8, and "We may be subject to various claims and lawsuits that could result in significant expenditures" in the Risk Factors, Item 1A.
+
+Our personal injury liability is subject to uncertainty due to unasserted claims, timing and outcome of claims, and evolving trends in litigation. There were no material changes to the assumptions used in the latest actuarial analysis.
+
+Our personal injury liability balance and claims activity was as follows:
+
+2025  2024  2023
+Ending liability balance at December 31 (millions)  $  413  $  379  $  383
+Open claims, beginning balance  1,567  1,871  2,036
+New claims  2,602  2,842  3,008
+Settled or dismissed claims  (2,829)  (3,146)  (3,173)
+Open claims, ending balance at December 31  1,340  1,567  1,871
+
+Environmental costs – See Note 17 to the Financial Statements and Supplementary Data, Item 8; "We are subject to significant environmental laws and regulations" in the Risk Factors, Item 1A; and Environmental Matters in the Legal Proceedings, Item 3.
+
+Our environmental liability is subject to several factors such as type of remediation, nature and volume of contaminate, number and financial viability of other potentially responsible parties, as well as uncertainty due to unknown alleged contamination, evolving trends in remediation techniques and final remedies, and changes in laws and regulations.
+
+Our environmental liability balance and site activity was as follows:
+
+2025  2024  2023
+Ending liability balance at December 31 (millions)  $  259 $  268 $  245
+Open sites, beginning balance  352  333  353
+New sites  73  84  74
+Closed sites  (82)  (65)  (94)
+Open sites, ending balance at December 31  343  352  333
+
+Property and depreciation – See Note 11 to the Financial Statements and Supplementary Data, Item 8.
+
+Assets purchased or constructed throughout the year are capitalized if they meet applicable minimum units of property.
+
+Estimated service lives of depreciable railroad property may vary over time due to changes in physical use, technology, asset strategies, and other factors that will have an impact on the retirement profiles of our assets. We are not aware of any specific factors that are reasonably likely to significantly change the estimated service lives of our assets. Actual use and retirement of our assets may vary from our current estimates, which would impact the amount of depreciation expense recognized in future periods.
+
+Changes in estimated useful lives of our assets due to the results of our depreciation studies could significantly impact future periods’ depreciation expense and have a material impact on our Consolidated Financial Statements. If the estimated useful lives of all depreciable assets were increased by one year, annual depreciation expense would decrease by approximately $81 million. If the estimated useful lives of all depreciable assets were decreased by one year, annual depreciation expense would increase by approximately $76 million. We are projecting an increase in our depreciation expense of approximately 4% in 2026 versus 2025. This is driven by an increase in our projected depreciable asset base.
+
+40
+
+
+Pension plans – See Note 5 to the Financial Statements and Supplementary Data, Item 8. 
+
+The critical assumptions used to measure pension obligations and expenses are the discount rates and expected rate of return on pension assets. 
+
+We evaluate our critical assumptions at least annually, and selected assumptions are based on the following factors:
+
+•We measure the service cost and interest cost components of our net periodic pension benefit/cost by using individual spot rates matched with separate cash flows for each future year. Discount rates are based on a Mercer yield curve of high-quality corporate bonds (rated AA by a recognized rating agency).
+
+•Expected return on plan assets is based on our asset allocation mix and our historical return, taking into consideration current and expected market conditions.
+
+The following tables present the key assumptions used to measure net periodic pension benefit/cost for 2026 and the estimated impact on 2026 net periodic pension benefit/cost relative to a change in those assumptions:
+
+Assumptions
+Discount rate for interest on benefit obligations  4.94%
+Discount rate for service cost  5.88%
+Discount rate for interest on service cost  5.64%
+Expected return on plan assets  5.25%
+
+Sensitivities  Increase in
+Millions
+pension cost
+0.25% decrease in discount rates  $  -
+0.25% decrease in expected return on plan assets  $  12
+
+The following table presents the net periodic pension benefit/cost for the years ended December 31:
+
+Millions  Est.  2025  2024  2023
+2026
+Net periodic pension (benefit)/cost  $  (23)  $  (14)  $  (3)  $
+
+41
+
+
+CAUTIONARY INFORMATION
+
+Certain statements in this report, and statements in other reports or information filed or to be filed with the SEC (as well as information included in oral statements or other written statements made or to be made by us), are, or will be, forward-looking statements as defined by the Securities Act of 1933 and the Securities Exchange Act of 1934. These forward-looking statements and information include, without limitation, statements in the CEO’s letter preceding Part I; statements regarding planned capital expenditures under the caption “2026 Capital Plan” in Item 2 of Part I; and statements and information set forth under the captions “2026 Outlook”; “Liquidity and Capital Resources” in Item 7 of Part II regarding our capital plan, share repurchase programs, contractual obligations, "Pension Benefits", and "Other Matters" in this Item 7 of Part II. Forward-looking statements and information also include any other statements or information in this report (including information incorporated herein by reference) regarding: the merger agreement and the transactions contemplated therein (described in Note 20 to the Financial Statements and Supplementary Data, Item 8), potential impacts of public health crises, including pandemics, epidemics, and the outbreak of other contagious disease, such as such as the coronavirus and its variant strains (COVID); the Russia-Ukraine and Israel-Hamas wars and other geopolitical tensions in the Middle East and elsewhere, and any impacts on our business operations, financial results, liquidity, and financial position, and on the world economy (including customers, employees, and supply chains), including as a result of fluctuations in volume and carloadings; closing of customer manufacturing, distribution, or production facilities; expectations as to operational or service improvements; expectations as to hiring challenges; availability of employees; expectations regarding the effectiveness of steps taken or to be taken to improve operations, service, infrastructure improvements, and transportation plan modifications (including those discussed in response to increased traffic); expectations as to cost savings, revenue growth, and earnings; the time by which goals, targets, aspirations, or objectives will be achieved; projections, predictions, expectations, estimates, or forecasts as to our business, financial, and operational results, future economic performance, and general economic conditions; proposed new products and services; estimates of costs relating to environmental remediation and restoration; estimates and expectations regarding tax matters; estimates and expectations regarding potential tariffs; potential impacts of H.R. 1, which was enacted on July 4, 2025; expectations that claims, litigation, environmental costs, commitments, contingent liabilities, labor negotiations or agreements, cyber-attacks, or other matters will not have a material adverse effect on our consolidated results of operations, financial condition, or liquidity and any other similar expressions concerning matters that are not historical facts. Forward-looking statements may be identified by their use of forward-looking terminology, such as “believes,” “expects,” “may,” “should,” “would,” “will,” “intends,” “plans,” “estimates,” “anticipates,” “projects,” and similar words, phrases, or expressions.
+
+Forward-looking statements should not be read as a guarantee of future performance, results, or outcomes, and will not necessarily be accurate indications of the times that, or by which, such performance, results or outcomes will be achieved, if ever. Forward-looking statements and information are subject to risks and uncertainties that could cause actual performance or results to differ materially from those expressed in the statements and information. Forward-looking statements and information reflect the good faith consideration by management of currently available information, and may be based on underlying assumptions believed to be reasonable under the circumstances. However, such information and assumptions (and, therefore, such forward-looking statements and information) are or may be subject to variables or unknown or unforeseeable events or circumstances over which management has little or no influence or control, and many of these risks and uncertainties are currently amplified by and may continue to be amplified by, or in the future may be amplified by, among other things, macroeconomic and geopolitical conditions. 
+
+The Risk Factors in Item 1A of this report could affect our future results and could cause those results or other outcomes to differ materially from those expressed or implied in any forward-looking statements or information. To the extent circumstances require or we deem it otherwise necessary, we will update or amend these risk factors in a Form 10-Q, Form 8-K, or subsequent Form 10-K. All forward-looking statements are qualified by, and should be read in conjunction with, these Risk Factors.
+
+Forward-looking statements speak only as of the date the statement was made. We assume no obligation to update forward-looking information to reflect actual results, changes in assumptions, or changes in other factors affecting forward-looking information. If we do update one or more forward-looking statements, no inference should be drawn that we will make additional updates with respect thereto or with respect to other forward-looking statements.
