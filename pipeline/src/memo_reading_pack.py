@@ -47,8 +47,10 @@ MDNA_KEYWORDS = [  # (label, pattern, case-insensitive)
 
 
 def fetch_mdna():
-    from edgar import Company, set_identity
-    set_identity("Paul Shyamala p4reddy@uwaterloo.ca")
+    from edgar import Company
+
+    from sec_identity import use_sec_identity
+    use_sec_identity()
     with sqlite3.connect(DATA_DIR / "filings.db") as conn:
         accession = conn.execute("SELECT accession_no FROM filings WHERE ticker = ? AND pair_position = 'latest'",
                                  (TICKER,)).fetchone()[0]

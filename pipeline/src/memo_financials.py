@@ -13,13 +13,13 @@ from pathlib import Path
 
 import pandas as pd
 import yfinance as yf
-from edgar import Company, set_identity
+from edgar import Company
 from edgar.httprequests import download_json
 from edgar.urls import build_company_facts_url
 from openpyxl import load_workbook
 from openpyxl.styles import Alignment, Font
 
-set_identity("Paul Shyamala p4reddy@uwaterloo.ca")
+from sec_identity import use_sec_identity
 
 ROOT = Path(__file__).resolve().parents[2]
 OUT = ROOT / "output" / "model.xlsx"
@@ -272,6 +272,7 @@ def main():
     parser.add_argument("--out", type=Path, default=OUT, help=f"output workbook (default {OUT})")
     args = parser.parse_args()
 
+    use_sec_identity()
     raw, flags = pull()
     summary = derive(raw)
     pre_close, latest_close = unp_closes()

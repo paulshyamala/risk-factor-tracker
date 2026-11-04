@@ -5,9 +5,9 @@ import sqlite3
 from datetime import datetime, timezone
 from pathlib import Path
 
-from edgar import Company, set_identity
+from edgar import Company
 
-set_identity("Paul Shyamala p4reddy@uwaterloo.ca")
+from sec_identity import use_sec_identity
 
 TICKERS = [
     # Canadian 10-K filers
@@ -212,6 +212,8 @@ def main():
     group.add_argument("--reclean", action="store_true",
                        help="rebuild text_clean for all stored rows from raw text, without re-fetching")
     args = parser.parse_args()
+    if not args.reclean:  # --reclean only rebuilds stored text, so it never contacts the SEC
+        use_sec_identity()
     tickers = TEST_TICKERS if args.test else [t.upper() for t in args.tickers] if args.tickers else TICKERS
 
     DB_PATH.parent.mkdir(parents=True, exist_ok=True)
