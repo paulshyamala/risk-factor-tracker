@@ -184,3 +184,7 @@ cython_debug/
 *.db
 .env
 node_modules/
+.DS_Store
+
+.claude/
+CLAUDE.md
